@@ -1,0 +1,34 @@
+name: "Rohan Alexander"
+base_url: https://rohanalexander.com/
+title: "Rohan Alexander"
+favicon: images/user-astronaut-solid.svg
+twitter:
+  site: "@RohanAlexander"
+description: |
+  Welcome to Rohan Alexander's website
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Academic"
+      href: academic.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Bookshelf"
+      href: bookshelf.html
+    - text: "Brown bag"
+      href: brownbag.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Other"
+      href: other.html
+    - icon: fab fa-twitter
+      href: https://twitter.com/RohanAlexander
+    - icon: fab fa-github
+      href: https://github.com/RohanAlexander
+    - icon: far fa-paper-plane
+      href: mailto:rohan.alexander@utoronto.ca
+output: 
+  distill::distill_article:
+    css: styles.css

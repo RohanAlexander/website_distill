@@ -1,0 +1,10 @@
+.distill-site-nav {
+  color: #E8EEF1;
+  background-color: #1E3D58;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.distill-site-nav a:hover {
+  color: #43B0F1;
+}

@@ -1,0 +1,64 @@
+---
+title: "Brownbag"
+description: |
+  An hour-long discussion about cleaning, preparing, and 
+  maintaining data in academia and industry. All welcome! 
+  If you would like to receive emails about the series 
+  please [get in touch](mailto:rohan.alexander@utoronto.ca).
+---
+
+**Overview**
+
+In any data science project a lot of time is spent on data cleaning, preparation, and maintenance, but these steps are rarely talked about, let alone written down. This means that there is a lot of reinvention and it can be difficult to know what best practice is. To help address this [Rohan Alexander](https://rohanalexander.com/) and [Prof Kelly Lyons](http://individual.utoronto.ca/klyons/) run a multidisciplinary brown bag that focuses on data cleaning. The series is a chance to share what we do in these crucial, yet little discussed, stages.
+
+We meet for an hour roughly every week and we aim to have a roughly even split of speakers from academia and industry over the course of the term. Usually each speaker talks for 20 to 30 minutes and we then have a bit of time for questions.
+
+Anyone is welcome to attend - you don't need to be affiliated with the university. 
+
+
+**Location and time**  
+We meet Fridays at noon, in Room 507, Bissell Building, 140 St George St, Toronto. If you would like to receive an occasional email about the series please [get in touch](mailto:rohan.alexander@utoronto.ca). 
+
+**Winter 2020 Term Speakers**
+
+* *Noon, Friday, 24 January 2020*  
+    [Steven Pimentel](https://www.linkedin.com/in/steve-pimentel-3610a11/) (U of T, business intelligence) 
+* *Noon, Friday, 31 January 2020*  
+    [Arik Senderovich](https://ischool.utoronto.ca/profile/arik-senderovich/) (U of T, iSchool)  
+* *Noon, Friday, 7 February 2020*  
+    [Kathy Chung](https://www.linkedin.com/in/kathy-k-y-chung-a5b46698/) (U of T, Records of Early English Drama)
+* *Noon, Friday, 14 February 2020*  
+    [Josh Harris](https://www.linkedin.com/in/josh-harris-86188983/) ([KOHO](https://www.koho.ca/))
+* *Noon, Friday, 28 February 2020*  
+    [Eugene Joh](https://www.linkedin.com/in/eugejoh/) (St. Michael's Hospital)
+* *Noon, Friday, 6 March 2020*  
+    [Fatemeh Nargesian](https://www.cs.rochester.edu/people/faculty/nargesian-fatemeh/index.html) (University of Rochester, Computer Science)
+* *Noon, Friday, 13 March 2020*  
+    [Marija Pejcinovska](https://www.statistics.utoronto.ca/people/directories/graduate-students/marija-pejcinovska) (U of T, Statistics)
+* *Noon, Friday, 20 March 2020*  
+    [Harrison Jones](https://www.linkedin.com/in/harrison-jones-a9947b60) (Deloitte)
+* *Noon, Friday, 27 March 2020*  
+    [Fei Chiang](http://www.cas.mcmaster.ca/~fchiang/) (McMaster University, Computing and Software)
+
+
+**Past Speakers**  
+ 
+* *Noon, Thursday, 26 September 2019*  
+    [Prof Periklis Andritsos](http://www.cs.toronto.edu/~periklis/) (ODAIA & U of T, iSchool)  
+* *Noon, Thursday, 10 October 2019*  
+    [Dr Hassan Teimoori](https://ca.linkedin.com/in/hassan-teimoori) (Deloitte, Omnia AI)  
+    [Prof Ludovic Rheault](https://ludovicrheault.weebly.com/) (U of T, Political Science)
+* *Noon, Wednesday, 16 October 2019*  
+    [Dr Lauren Kennedy](https://au.linkedin.com/in/lauren-kennedy-783864bb) (Columbia University)  
+    Special hands-on data wrangling meeting - bring your laptop!
+* *Noon, Thursday, 24 October 2019*  
+    [Sharla Gelfand](https://sharla.party/) (Freelance R and Shiny developer)  
+* *Noon, Thursday, 7 November 2019*  
+    [Dr Maria D'Angelo](https://ca.linkedin.com/in/mariacdangelo) (Delphia)  
+    [Hareem Naveed](https://ca.linkedin.com/in/hareemnaveed) (Munich Re)    
+* *Noon, Thursday, 21 November 2019*  
+    [Prof Michelle Alexopoulos](http://homes.chass.utoronto.ca/~malex/) (U of T, Economics)  
+    [Paraskevi Massara](https://ca.linkedin.com/in/paraskevi-massara-597326a0) (U of T, Medicine)  
+
+
+If you would like to receive an occasional email about the series please [get in touch](mailto:rohan.alexander@utoronto.ca). 
