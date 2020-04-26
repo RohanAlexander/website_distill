@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Rohan Alexander</title>
+    <link>https://rohanalexander.com/</link>
+    <atom:link href="https://rohanalexander.com/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Welcome to Rohan Alexander's website
+</description>
+    <image>
+      <title>Rohan Alexander</title>
+      <url>https://rohanalexander.com/images/user-astronaut-solid.svg</url>
+      <link>https://rohanalexander.com/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Tidying the 2019 Kenyan Census</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</link>
+      <description>In this note I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.</description>
+      <guid>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</guid>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census/images/2020-04-10-screenshot-of-census.png" medium="image" type="image/png" width="1060" height="1500"/>
+    </item>
+    <item>
+      <title>A review of 'Forecasting elections with non-representative polls'</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls</link>
+      <description>This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group.</description>
+      <guid>https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls</guid>
+      <pubDate>Tue, 11 Feb 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/page_1.png" medium="image" type="image/png" width="1168" height="1594"/>
+    </item>
+    <item>
+      <title>Getting started with MRP</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp</link>
+      <description>Multi-level regression with post-stratification (MRP) is a popular way to adjust non-representative samples to better analyse opinion and other survey responses. I recently ran a hands-on workshop at the ANU, aimed at interested, but not experienced, social scientists to help de-mystify MRP. The workshop aimed to give participants the ability and confidence to: 1) critically read papers that use it; and 2) apply it in their own work. Examples of how to implement MRP were illustrated in R using the brms package. The following post gives the outline of the workshop and the material and coding exercises covered.</description>
+      <guid>https://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp</guid>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp/getting-started-with-mrp_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Gathering and analysing text data</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2019-01-03-gathering-and-analysing-text-data</link>
+      <description>Text modelling is an exciting area of research. But many guides assume that you already have a nice dataset. Similarly, web scraping is an exciting way to get information, but not many explanations go on to explain what you could do with it. This post attempts to go from scraping text from a website through to modelling the topics. It's not meant to be an exhaustive post, but should hopefully provide enough that you can get started with your own project and know where to go for more information.</description>
+      <guid>https://rohanalexander.com/posts/2019-01-03-gathering-and-analysing-text-data</guid>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2019-01-03-gathering-and-analysing-text-data/gathering-and-analysing-text-data_files/figure-html5/diagnosticmeasuregraphs-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Cleaning Hansard: The pay's not great but the work is hard</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2018-08-13-cleaning-hansard</link>
+      <description>Cleaning the Australian Hansard is mind-numbing, annoying and time-consuming, but someone has to do it.</description>
+      <guid>https://rohanalexander.com/posts/2018-08-13-cleaning-hansard</guid>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The SQL Is Never As Good As The Original</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2018-07-28-the-sql-is-never-as-good-as-the-original</link>
+      <description>SQL is a popular way of working with data. Advanced users probably do a lot with it alone, but even just having a working knowledge of SQL has increased the number of datasets that I can get data from to then analyse with other tools such as R or Python. You can use SQL within RStudio if you want. The following are a few notes to help future-Rohan when he needs to use SQL. A worked example with a sample of the Hansard data will be included in a future post.</description>
+      <guid>https://rohanalexander.com/posts/2018-07-28-the-sql-is-never-as-good-as-the-original</guid>
+      <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Topic Modelling - Theory</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory</link>
+      <description>Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.</description>
+      <guid>https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory</guid>
+      <pubDate>Fri, 29 Jun 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/topic_modelling-theory_files/figure-html5/topicsoverdocuments-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
+      <title>Getting started with LaTeX</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2017-09-14-getting-started-with-latex</link>
+      <description>LaTeX makes it easier to produce papers that look great, but it can be overwhelming at the start. These notes help you get up-and-running with LaTeX.</description>
+      <guid>https://rohanalexander.com/posts/2017-09-14-getting-started-with-latex</guid>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2017-09-14-getting-started-with-latex/images/LaTeX_first_example.png" medium="image" type="image/png" width="1014" height="1448"/>
+    </item>
+    <item>
+      <title>Reproducing a Grattan Institute map</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map</link>
+      <description>Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.</description>
+      <guid>https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map</guid>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/images/grattan.png" medium="image" type="image/png" width="1888" height="1336"/>
+    </item>
+    <item>
+      <title>Getting started with Blogdown</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2017-07-21-getting-started-with-blogdown</link>
+      <description>Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.</description>
+      <guid>https://rohanalexander.com/posts/2017-07-21-getting-started-with-blogdown</guid>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2017-07-21-getting-started-with-blogdown/images/blogdown_github_1.png" medium="image" type="image/png" width="2152" height="1142"/>
+    </item>
+    <item>
+      <title>Mapping the 2016 Australian Election Polling Place Results</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2017-07-18-mapping-the-2016-australian-election-polling-place-results</link>
+      <description>The note that follows introduces Australia's political system, and then details the process of downloading and merging first-preference votes by polling place, and then plotting it on an interactive map.</description>
+      <guid>https://rohanalexander.com/posts/2017-07-18-mapping-the-2016-australian-election-polling-place-results</guid>
+      <pubDate>Tue, 18 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Greitens Reports For Duty</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2016-10-15-greitens-reports-for-duty</link>
+      <description>Eric Greitens may be the Republican Übermensch. Rhodes Scholar, Navy SEAL officer, husband and father. He's now the Republican candidate in the Missouri gubernatorial election. And one suspects that being a governor could just be a step for Greitens. While 2016 will always be the year that US politics descended to the gutter, it could also be the year that the next Republican president begins his political career.</description>
+      <guid>https://rohanalexander.com/posts/2016-10-15-greitens-reports-for-duty</guid>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2016-10-15-greitens-reports-for-duty/images/StLouis_Greitens_1.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Professional Amateurs</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2016-09-08-professional-amateurs</link>
+      <description>Despite many unforced errors Hillary Clinton has won the Democratic nomination and polls suggest she will beat Donald Trump. But her campaign continues to make unforced errors. There was plenty of evidence of an amateur nature to what should be a professional campaign at a recent rally for Clinton’s running mate, Tim Kaine, in Grand Rapids, Michigan.</description>
+      <guid>https://rohanalexander.com/posts/2016-09-08-professional-amateurs</guid>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2016-09-08-professional-amateurs/images/ProfessionalAmateurs-WelcomeSign.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Trump, Revisited</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2016-07-17-trump-revisited</link>
+      <description>Donald Trump is an improved politician, but it's unlikely to be enough. He has harnessed fervent anti-Clinton sentiment amongst Republicans. But he does not have time to build the coalitions usually needed to win a US presidential election.</description>
+      <guid>https://rohanalexander.com/posts/2016-07-17-trump-revisited</guid>
+      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2016-07-17-trump-revisited/images/2016_07_17_Children.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Broader Thinking Needed on the Australian Budget</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2016-02-03-broader-thinking-needed-on-the-australian-budget</link>
+      <description>The Treasury Secretary, and many others, bemoan the wasted years of the mining boom. Most agree that Australia should have more to show for what was the most significant boom since Federation. But the boom is over. And a fixation on budget surpluses means that we are missing an opportunity to make up for it. Australia’s credit rating is a strength that we should take advantage of. The Commonwealth should be borrowing to fund infrastructure investment.</description>
+      <guid>https://rohanalexander.com/posts/2016-02-03-broader-thinking-needed-on-the-australian-budget</guid>
+      <pubDate>Wed, 03 Feb 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2016-02-03-broader-thinking-needed-on-the-australian-budget/images/DSC_0599.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Notes and Photos From Iowa</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2016-01-14-notes-and-photos-from-iowa</link>
+      <description>Bernie Sanders seems quite reasonable for a revolutionary. An energetic man of 74, he spoke for an hour in Perry, Iowa, to a room of 300 from only a few lines of handwritten notes, and then fielded half an hour of questions. He does not have the same aura that surrounded, then, Senator Obama in his own Iowa battle with, then, Senator Clinton in 2008 say those who saw both. Instead, Sanders has preternatural calm.</description>
+      <guid>https://rohanalexander.com/posts/2016-01-14-notes-and-photos-from-iowa</guid>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2016-01-14-notes-and-photos-from-iowa/images/2016_01_11_Bernie.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Prepare For Future Economic Crises Now</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2015-08-31-prepare-for-future-economic-crises-now</link>
+      <description>Few policymakers were prepared for the financial crisis of 2007-08. Until it hit, their focus was on more obvious threats to the economy, instead of such an unexpected event. Could this be because planning for unexpected economic events is not the explicit responsibility of any particular policy-maker? If so, this has to change.</description>
+      <guid>https://rohanalexander.com/posts/2015-08-31-prepare-for-future-economic-crises-now</guid>
+      <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2015-08-31-prepare-for-future-economic-crises-now/images/DSCF1945.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>In Appreciation of Ronald Coase</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2014-12-24-in-appreciation-of-ronald-coase</link>
+      <description>Ronald Coase, one of the most influential economists of the twentieth century, passed away in 2013 aged 102. Reading his papers today, I wonder whether he'd have become an economist if he were making that decision now.</description>
+      <guid>https://rohanalexander.com/posts/2014-12-24-in-appreciation-of-ronald-coase</guid>
+      <pubDate>Wed, 24 Dec 2014 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2014-12-24-in-appreciation-of-ronald-coase/images/IMG_0145.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>I'll Have What They're Having</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2014-12-24-i-ll-have-what-they-re-having</link>
+      <description>Some accuse the Rich White Males from San Francisco's Bay Area of only making products for other Rich White Males. But that neglects the fact that what they want is sometimes also what the rest of us want.</description>
+      <guid>https://rohanalexander.com/posts/2014-12-24-i-ll-have-what-they-re-having</guid>
+      <pubDate>Wed, 17 Dec 2014 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2014-12-24-i-ll-have-what-they-re-having/images/DSCF3336.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Human Equation: An Interview With George Zachary</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2014-03-19-the-human-equation-an-interview-with-george-zachary</link>
+      <description>In an age when you can buy data-driven refrigerators and Moneyball is nominated for Academy Awards you may be surprised to hear there are investors who describe themselves as gut-driven. Frankly I thought such people would be too embarrassed to be out in public. Then I heard George Zachary talk.</description>
+      <guid>https://rohanalexander.com/posts/2014-03-19-the-human-equation-an-interview-with-george-zachary</guid>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2014-03-19-the-human-equation-an-interview-with-george-zachary/images/IMG_0277.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Final Shot At Ending Industrial Disputes</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <dc:creator>Ben O'Neill</dc:creator>
+      <link>https://rohanalexander.com/posts/2012-11-28-final-shot-at-ending-industrial-disputes</link>
+      <description>The industrial relations disputes that culminated in the shutdown of Qantas last year took more than nine months to make it through arbitration. Such lengthy delays have left many wondering if changes should be made to the processes that underpin this form of dispute resolution. The use of ‘final offer’ arbitration could be the small change that has a big effect, saving conflicted parties time, money and reputation.</description>
+      <guid>https://rohanalexander.com/posts/2012-11-28-final-shot-at-ending-industrial-disputes</guid>
+      <pubDate>Wed, 28 Nov 2012 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2012-11-28-final-shot-at-ending-industrial-disputes/images/DSC3132.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Tournaments Could Drive R&amp;D Effort</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <dc:creator>Andrew Barnes</dc:creator>
+      <link>https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort</link>
+      <description>The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.</description>
+      <guid>https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort</guid>
+      <pubDate>Tue, 17 May 2011 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/images/DSCF4403.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Plastic Policies</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <dc:creator>Flavio Menezes</dc:creator>
+      <link>https://rohanalexander.com/posts/2009-05-25-plastic-policies</link>
+      <description>There is broad agreement that Australian plastic bag consumption should be reduced. To this end, recent South Australian legislation has banned certain types of plastic bags. But other states wishing to reduce their plastic bag consumption may find a tax rather than a ban the more appropriate policy instrument.</description>
+      <guid>https://rohanalexander.com/posts/2009-05-25-plastic-policies</guid>
+      <pubDate>Mon, 25 May 2009 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home Buyers Will Be Hurt by Aid Plan</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan</link>
+      <description>The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.</description>
+      <guid>https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan</guid>
+      <pubDate>Thu, 08 May 2008 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/images/DSCF0213.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
