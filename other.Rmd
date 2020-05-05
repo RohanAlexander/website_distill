@@ -4,7 +4,7 @@ title: "Other"
 
 # Professional experience
 
-[Professional CV](pdfs/2019-09-04-canada_cv-professional-RohanAlexander.pdf)
+[Professional CV](pdfs/cv-professional-RohanAlexander.pdf)
 
 ### Grosvenor Public Sector Advisory
 

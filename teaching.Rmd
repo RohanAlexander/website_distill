@@ -1,8 +1,10 @@
 ---
 title: "Teaching"
+description: |
+  My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. 
 ---
 
-My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. 
+
 
 # University of Toronto
 * *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall Term, 2020.

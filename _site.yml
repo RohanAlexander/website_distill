@@ -5,7 +5,7 @@ favicon: images/user-astronaut-solid.svg
 twitter:
   site: "@RohanAlexander"
 description: |
-  Welcome to Rohan Alexander's website
+  Welcome to Rohan Alexander's website.
 output_dir: "_site"
 navbar:
   right:

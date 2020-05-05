@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+  <!--radix_placeholder_meta_tags-->
+<title>Rohan Alexander: Reproducing a Grattan Institute map</title>
+
+<meta property="description" itemprop="description" content="Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites."/>
+
+<link rel="canonical" href="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"/>
+<link rel="icon" type="image/svg+xml" href="../../images/user-astronaut-solid.svg"/>
+
+<!--  https://schema.org/Article -->
+<meta property="article:published" itemprop="datePublished" content="2017-08-11"/>
+<meta property="article:created" itemprop="dateCreated" content="2017-08-11"/>
+<meta name="article:author" content="Rohan Alexander"/>
+
+<!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+<meta property="og:title" content="Rohan Alexander: Reproducing a Grattan Institute map"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description" content="Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites."/>
+<meta property="og:url" content="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"/>
+<meta property="og:image" content="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/images/grattan.png"/>
+<meta property="og:image:width" content="1888"/>
+<meta property="og:image:height" content="1336"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:site_name" content="Rohan Alexander"/>
+
+<!--  https://dev.twitter.com/cards/types/summary -->
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:title" content="Rohan Alexander: Reproducing a Grattan Institute map"/>
+<meta property="twitter:description" content="Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites."/>
+<meta property="twitter:url" content="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"/>
+<meta property="twitter:image" content="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/images/grattan.png"/>
+<meta property="twitter:image:width" content="1888"/>
+<meta property="twitter:image:height" content="1336"/>
+<meta property="twitter:site" content="@RohanAlexander"/>
+
+<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
+<meta name="citation_title" content="Rohan Alexander: Reproducing a Grattan Institute map"/>
+<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"/>
+<meta name="citation_online_date" content="2017/08/11"/>
+<meta name="citation_publication_date" content="2017/08/11"/>
+<meta name="citation_author" content="Rohan Alexander"/>
+<!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+<script type="text/json" id="radix-rmarkdown-metadata">
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Reproducing a Grattan Institute map"]},{"type":"character","attributes":{},"value":["Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["2017-08-11"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/"]}]}
+</script>
+<!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["images/grattan.png","images/me.png"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+
+<script type="application/javascript">
+
+  window.headroom_prevent_pin = false;
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // initialize headroom for banner
+    var header = $('header').get(0);
+    var headerHeight = header.offsetHeight;
+    var headroom = new Headroom(header, {
+      onPin : function() {
+        if (window.headroom_prevent_pin) {
+          window.headroom_prevent_pin = false;
+          headroom.unpin();
+        }
+      }
+    });
+    headroom.init();
+    if(window.location.hash)
+      headroom.unpin();
+    $(header).addClass('headroom--transition');
+
+    // offset scroll location for banner on hash change
+    // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+    window.addEventListener("hashchange", function(event) {
+      window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+    });
+
+    // responsive menu
+    $('.distill-site-header').each(function(i, val) {
+      var topnav = $(this);
+      var toggle = topnav.find('.nav-toggle');
+      toggle.on('click', function() {
+        topnav.toggleClass('responsive');
+      });
+    });
+
+    // nav dropdowns
+    $('.nav-dropbtn').click(function(e) {
+      $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+      $(this).parent().siblings('.nav-dropdown')
+         .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $("body").click(function(e){
+      $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+    });
+    $(".nav-dropdown").click(function(e){
+      e.stopPropagation();
+    });
+  });
+</script>
+
+<style type="text/css">
+
+/* Theme (user-documented overrideables for nav appearance) */
+
+.distill-site-nav {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: #455a64;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+.distill-site-header {
+
+}
+
+.distill-site-footer {
+
+}
+
+
+/* Site Header */
+
+.distill-site-header {
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.distill-site-header .nav-left {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header .nav-left {
+    margin-left: 0;
+  }
+}
+
+
+.distill-site-header .nav-right {
+  float: right;
+  margin-right: 8px;
+}
+
+.distill-site-header a,
+.distill-site-header .title {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 10px 14px 10px;
+}
+
+.distill-site-header .title {
+  font-size: 18px;
+}
+
+.distill-site-header .logo {
+  padding: 0;
+}
+
+.distill-site-header .logo img {
+  display: none;
+  max-height: 20px;
+  width: auto;
+  margin-bottom: -4px;
+}
+
+.distill-site-header .nav-image img {
+  max-height: 18px;
+  width: auto;
+  display: inline-block;
+  margin-bottom: -3px;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .distill-site-header .logo img {
+    display: inline-block;
+  }
+  .distill-site-header .nav-left {
+    margin-left: 20px;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 20px;
+  }
+  .distill-site-header .title {
+    padding-left: 12px;
+  }
+}
+
+
+.distill-site-header .nav-toggle {
+  display: none;
+}
+
+.nav-dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.nav-dropdown .nav-dropbtn {
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 16px 10px;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-top: 1px;
+  z-index: 2;
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+  margin-top: 2px;
+  white-space: nowrap;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.nav-dropdown-content hr {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-dropdown-active {
+  display: block;
+}
+
+.nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+  color: black;
+  padding: 6px 24px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.nav-dropdown-content .nav-dropdown-header {
+  display: block;
+  padding: 5px 24px;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #999999;
+  white-space: nowrap;
+}
+
+.nav-dropdown:hover .nav-dropbtn {
+  color: white;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-right .nav-dropdown-content {
+  margin-left: -45%;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+  .distill-site-header a.nav-toggle {
+    float: right;
+    display: block;
+  }
+  .distill-site-header .title {
+    margin-left: 0;
+  }
+  .distill-site-header .nav-right {
+    margin-right: 0;
+  }
+  .distill-site-header {
+    overflow: hidden;
+  }
+  .nav-right .nav-dropdown-content {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .distill-site-header.responsive {position: relative;}
+  .distill-site-header.responsive a.nav-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .distill-site-header.responsive a,
+  .distill-site-header.responsive .nav-dropdown {
+    display: block;
+    text-align: left;
+  }
+  .distill-site-header.responsive .nav-left,
+  .distill-site-header.responsive .nav-right {
+    width: 100%;
+  }
+  .distill-site-header.responsive .nav-dropdown {float: none;}
+  .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+  .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Site Footer */
+
+.distill-site-footer {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 3;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* Headroom */
+
+d-title {
+  padding-top: 6rem;
+}
+
+@media print {
+  d-title {
+    padding-top: 4rem;
+  }
+}
+
+.headroom {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headroom--transition {
+  transition: all .4s ease-in-out;
+}
+
+.headroom--unpinned {
+  top: -100px;
+}
+
+.headroom--pinned {
+  top: 0;
+}
+
+</style>
+
+<link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+<link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+<script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
+<!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+<style type="text/css">
+
+body {
+  background-color: white;
+}
+
+.pandoc-table {
+  width: 100%;
+}
+
+.pandoc-table>caption {
+  margin-bottom: 10px;
+}
+
+.pandoc-table th:not([align]) {
+  text-align: left;
+}
+
+.pagedtable-footer {
+  font-size: 15px;
+}
+
+.html-widget {
+  margin-bottom: 2.0em;
+}
+
+.l-screen-inset {
+  padding-right: 16px;
+}
+
+.l-screen .caption {
+  margin-left: 10px;
+}
+
+.shaded {
+  background: rgb(247, 247, 247);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shaded .html-widget {
+  margin-bottom: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shaded .shaded-content {
+  background: white;
+}
+
+.text-output {
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+d-article {
+  padding-bottom: 30px;
+}
+
+d-appendix {
+  padding-top: 30px;
+}
+
+d-article>p>img {
+  width: 100%;
+}
+
+d-article iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.0em;
+  width: 100%;
+}
+
+figure img.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+/* CSS for table of contents */
+
+.d-toc {
+  color: rgba(0,0,0,0.8);
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+.d-toc-header {
+  font-size: 0.6rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 1.3em;
+}
+
+.d-toc a {
+  border-bottom: none;
+}
+
+.d-toc ul {
+  padding-left: 0;
+}
+
+.d-toc li>ul {
+  padding-top: 0.8em;
+  padding-left: 16px;
+  margin-bottom: 0.6em;
+}
+
+.d-toc ul,
+.d-toc li {
+  list-style-type: none;
+}
+
+.d-toc li {
+  margin-bottom: 0.9em;
+}
+
+.d-toc-separator {
+  margin-top: 20px;
+  margin-bottom: 2em;
+}
+
+.d-article-with-toc {
+  border-top: none;
+  padding-top: 0;
+}
+
+
+
+/* Tweak code blocks (note that this CSS is repeated above in an injection
+   into the d-code shadow dom) */
+
+d-code {
+  overflow-x: auto !important;
+}
+
+pre.d-code code.d-code {
+  padding-left: 10px;
+  font-size: 12px;
+  border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+pre.text-output {
+
+  font-size: 12px;
+  color: black;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+@media(min-width: 768px) {
+
+d-code {
+  overflow-x: visible !important;
+}
+
+pre.d-code code.d-code  {
+    padding-left: 18px;
+    font-size: 14px;
+}
+pre.text-output {
+  font-size: 14px;
+}
+}
+
+/* Figure */
+
+.figure {
+  position: relative;
+  margin-bottom: 2.5em;
+  margin-top: 1.5em;
+}
+
+.figure img {
+  width: 100%;
+}
+
+.figure .caption {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+.figure img.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.figure .caption a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.figure .caption b,
+.figure .caption strong, {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+
+
+/* Tweak 1000px media break to show more text */
+
+@media(min-width: 1000px) {
+  .base-grid,
+  distill-header,
+  d-title,
+  d-abstract,
+  d-article,
+  d-appendix,
+  distill-appendix,
+  d-byline,
+  d-footnote-list,
+  d-citation-list,
+  distill-footer {
+    grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+    grid-column-gap: 16px;
+  }
+
+  .grid {
+    grid-column-gap: 16px;
+  }
+
+  d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+  }
+  figure .caption, .figure .caption, figure figcaption {
+    font-size: 13px;
+  }
+}
+
+@media(min-width: 1180px) {
+  .base-grid,
+  distill-header,
+  d-title,
+  d-abstract,
+  d-article,
+  d-appendix,
+  distill-appendix,
+  d-byline,
+  d-footnote-list,
+  d-citation-list,
+  distill-footer {
+    grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+    grid-column-gap: 32px;
+  }
+
+  .grid {
+    grid-column-gap: 32px;
+  }
+}
+
+
+/* Get the citation styles for the appendix (not auto-injected on render since
+   we do our own rendering of the citation appendix) */
+
+d-appendix .citation-appendix,
+.d-appendix .citation-appendix {
+  font-size: 11px;
+  line-height: 15px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 18px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.02);
+  padding: 10px 18px;
+  border-radius: 3px;
+  color: rgba(150, 150, 150, 1);
+  overflow: hidden;
+  margin-top: -12px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+/* Social footer */
+
+.social_footer {
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.67);
+}
+
+.disqus-comments {
+  margin-right: 30px;
+}
+
+.disqus-comment-count {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+#disqus_thread {
+  margin-top: 30px;
+}
+
+.article-sharing a {
+  border-bottom: none;
+  margin-right: 8px;
+}
+
+.article-sharing a:hover {
+  border-bottom: none;
+}
+
+.sidebar-section.subscribe {
+  font-size: 12px;
+  line-height: 1.6em;
+}
+
+.subscribe p {
+  margin-bottom: 0.5em;
+}
+
+
+.article-footer .subscribe {
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+
+/* Improve display for browsers without grid (IE/Edge <= 15) */
+
+.downlevel {
+  line-height: 1.6em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+}
+
+.downlevel .d-title {
+  padding-top: 6rem;
+  padding-bottom: 1.5rem;
+}
+
+.downlevel .d-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin: 0 0 0.5rem;
+}
+
+.downlevel .d-title p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.55em;
+  margin-top: 0;
+}
+
+.downlevel .d-byline {
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  font-size: 0.8rem;
+  line-height: 1.8em;
+}
+
+.downlevel .section-separator {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.downlevel .d-article {
+  font-size: 1.06rem;
+  line-height: 1.7em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+.downlevel .d-appendix {
+  padding-left: 0;
+  padding-right: 0;
+  max-width: none;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.5);
+  padding-top: 40px;
+  padding-bottom: 48px;
+}
+
+.downlevel .footnotes ol {
+  padding-left: 13px;
+}
+
+.downlevel .base-grid,
+.downlevel .distill-header,
+.downlevel .d-title,
+.downlevel .d-abstract,
+.downlevel .d-article,
+.downlevel .d-appendix,
+.downlevel .distill-appendix,
+.downlevel .d-byline,
+.downlevel .d-footnote-list,
+.downlevel .d-citation-list,
+.downlevel .distill-footer,
+.downlevel .appendix-bottom,
+.downlevel .posts-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media(min-width: 768px) {
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+  padding-left: 150px;
+  padding-right: 150px;
+  max-width: 900px;
+}
+}
+
+.downlevel pre code {
+  display: block;
+  border-left: 2px solid rgba(0, 0, 0, .1);
+  padding: 0 0 0 20px;
+  font-size: 14px;
+}
+
+.downlevel code, .downlevel pre {
+  color: black;
+  background: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+</style>
+
+<script type="application/javascript">
+
+function is_downlevel_browser() {
+  if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                 window.navigator.userAgent)) {
+    return true;
+  } else {
+    return window.load_distill_framework === undefined;
+  }
+}
+
+// show body when load is complete
+function on_load_complete() {
+
+  // set body to visible
+  document.body.style.visibility = 'visible';
+
+  // force redraw for leaflet widgets
+  if (window.HTMLWidgets) {
+    var maps = window.HTMLWidgets.findAll(".leaflet");
+    $.each(maps, function(i, el) {
+      var map = this.getMap();
+      map.invalidateSize();
+      map.eachLayer(function(layer) {
+        if (layer instanceof L.TileLayer)
+          layer.redraw();
+      });
+    });
+  }
+
+  // trigger 'shown' so htmlwidgets resize
+  $('d-article').trigger('shown');
+}
+
+function init_distill() {
+
+  init_common();
+
+  // create front matter
+  var front_matter = $('<d-front-matter></d-front-matter>');
+  $('#distill-front-matter').wrap(front_matter);
+
+  // create d-title
+  $('.d-title').changeElementType('d-title');
+
+  // create d-byline
+  var byline = $('<d-byline></d-byline>');
+  $('.d-byline').replaceWith(byline);
+
+  // create d-article
+  var article = $('<d-article></d-article>');
+  $('.d-article').wrap(article).children().unwrap();
+
+  // move posts container into article
+  $('.posts-container').appendTo($('d-article'));
+
+  // create d-appendix
+  $('.d-appendix').changeElementType('d-appendix');
+
+  // create d-bibliography
+  var bibliography = $('<d-bibliography></d-bibliography>');
+  $('#distill-bibliography').wrap(bibliography);
+
+  // flag indicating that we have appendix items
+  var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+  // replace citations with <d-cite>
+  $('.citation').each(function(i, val) {
+    appendix = true;
+    var cites = $(this).attr('data-cites').split(" ");
+    var dt_cite = $('<d-cite></d-cite>');
+    dt_cite.attr('key', cites.join());
+    $(this).replaceWith(dt_cite);
+  });
+  // remove refs
+  $('#refs').remove();
+
+  // replace footnotes with <d-footnote>
+  $('.footnote-ref').each(function(i, val) {
+    appendix = true;
+    var href = $(this).attr('href');
+    var id = href.replace('#', '');
+    var fn = $('#' + id);
+    var fn_p = $('#' + id + '>p');
+    fn_p.find('.footnote-back').remove();
+    var text = fn_p.html();
+    var dtfn = $('<d-footnote></d-footnote>');
+    dtfn.html(text);
+    $(this).replaceWith(dtfn);
+  });
+  // remove footnotes
+  $('.footnotes').remove();
+
+  $('h1.appendix, h2.appendix').each(function(i, val) {
+    $(this).changeElementType('h3');
+  });
+  $('h3.appendix').each(function(i, val) {
+    var id = $(this).attr('id');
+    $('.d-toc a[href="#' + id + '"]').parent().remove();
+    appendix = true;
+    $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+  });
+
+  // show d-appendix if we have appendix content
+  $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+  // replace code blocks with d-code
+  $('pre>code').each(function(i, val) {
+    var code = $(this);
+    var pre = code.parent();
+    var clz = "";
+    var language = pre.attr('class');
+    if (language) {
+      // map unknown languages to "clike" (without this they just dissapear)
+      if ($.inArray(language, ["bash", "clike", "css", "go", "html",
+                               "javascript", "js", "julia", "lua", "markdown",
+                               "markup", "mathml", "python", "svg", "xml"]) == -1)
+        language = "clike";
+      language = ' language="' + language + '"';
+      var dt_code = $('<d-code block' + language + clz + '></d-code>');
+      dt_code.text(code.text());
+      pre.replaceWith(dt_code);
+    } else {
+      code.addClass('text-output').unwrap().changeElementType('pre');
+    }
+  });
+
+  // localize layout chunks to just output
+  $('.layout-chunk').each(function(i, val) {
+
+    // capture layout
+    var layout = $(this).attr('data-layout');
+
+    // apply layout to markdown level block elements
+    var elements = $(this).children().not('d-code, pre.text-output, script');
+    elements.each(function(i, el) {
+      var layout_div = $('<div class="' + layout + '"></div>');
+      if (layout_div.hasClass('shaded')) {
+        var shaded_content = $('<div class="shaded-content"></div>');
+        $(this).wrap(shaded_content);
+        $(this).parent().wrap(layout_div);
+      } else {
+        $(this).wrap(layout_div);
+      }
+    });
+
+
+    // unwrap the layout-chunk div
+    $(this).children().unwrap();
+  });
+
+  // load distill framework
+  load_distill_framework();
+
+  // wait for window.distillRunlevel == 4 to do post processing
+  function distill_post_process() {
+
+    if (!window.distillRunlevel || window.distillRunlevel < 4)
+      return;
+
+    // hide author/affiliations entirely if we have no authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+    if (!have_authors)
+      $('d-byline').addClass('hidden');
+
+    // table of contents
+    if (have_authors) // adjust border if we are in authors
+      $('.d-toc').parent().addClass('d-article-with-toc');
+
+    // strip links that point to #
+    $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+    // hide elements of author/affiliations grid that have no value
+    function hide_byline_column(caption) {
+      $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+    }
+
+    // affiliations
+    var have_affiliations = false;
+    for (var i = 0; i<front_matter.authors.length; ++i) {
+      var author = front_matter.authors[i];
+      if (author.affiliation !== "&nbsp;") {
+        have_affiliations = true;
+        break;
+      }
+    }
+    if (!have_affiliations)
+      $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+    // published date
+    if (!front_matter.publishedDate)
+      hide_byline_column("Published");
+
+    // document object identifier
+    var doi = $('d-byline').find('h3:contains("DOI")');
+    var doi_p = doi.next().empty();
+    if (!front_matter.doi) {
+      // if we have a citation and valid citationText then link to that
+      if ($('#citation').length > 0 && front_matter.citationText) {
+        doi.html('Citation');
+        $('<a href="#citation"></a>')
+          .text(front_matter.citationText)
+          .appendTo(doi_p);
+      } else {
+        hide_byline_column("DOI");
+      }
+    } else {
+      $('<a></a>')
+         .attr('href', "https://doi.org/" + front_matter.doi)
+         .html(front_matter.doi)
+         .appendTo(doi_p);
+    }
+
+     // change plural form of authors/affiliations
+    if (front_matter.authors.length === 1) {
+      var grid = $('.authors-affiliations');
+      grid.children('h3:contains("Authors")').text('Author');
+      grid.children('h3:contains("Affiliations")').text('Affiliation');
+    }
+
+    // inject pre code styles (can't do this with a global stylesheet b/c a shadow root is used)
+    $('d-code').each(function(i, val) {
+      var style = document.createElement('style');
+      style.innerHTML = 'pre code { padding-left: 10px; font-size: 12px; border-left: 2px solid rgba(0,0,0,0.1); } ' +
+                        '@media(min-width: 768px) { pre code { padding-left: 18px; font-size: 14px; } }';
+      if (this.shadowRoot)
+        this.shadowRoot.appendChild(style);
+    });
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // clear polling timer
+    clearInterval(tid);
+
+    // show body now that everything is ready
+    on_load_complete();
+  }
+
+  var tid = setInterval(distill_post_process, 50);
+  distill_post_process();
+
+}
+
+function init_downlevel() {
+
+  init_common();
+
+   // insert hr after d-title
+  $('.d-title').after($('<hr class="section-separator"/>'));
+
+  // check if we have authors
+  var front_matter = JSON.parse($("#distill-front-matter").html());
+  var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+  // manage byline/border
+  if (!have_authors)
+    $('.d-byline').remove();
+  $('.d-byline').after($('<hr class="section-separator"/>'));
+  $('.d-byline a').remove();
+
+  // remove toc
+  $('.d-toc-header').remove();
+  $('.d-toc').remove();
+  $('.d-toc-separator').remove();
+
+  // move appendix elements
+  $('h1.appendix, h2.appendix').each(function(i, val) {
+    $(this).changeElementType('h3');
+  });
+  $('h3.appendix').each(function(i, val) {
+    $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+  });
+
+
+  // inject headers into references and footnotes
+  var refs_header = $('<h3></h3>');
+  refs_header.text('References');
+  $('#refs').prepend(refs_header);
+
+  var footnotes_header = $('<h3></h3');
+  footnotes_header.text('Footnotes');
+  $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+  // move appendix-bottom entries to the bottom
+  $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+  $('.appendix-bottom').remove();
+
+  // remove appendix if it's empty
+  if ($('.d-appendix').children().length === 0)
+    $('.d-appendix').remove();
+
+  // prepend separator above appendix
+  $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+  // trim code
+  $('pre>code').each(function(i, val) {
+    $(this).html($.trim($(this).html()));
+  });
+
+  // move posts-container right before article
+  $('.posts-container').insertBefore($('.d-article'));
+
+  $('body').addClass('downlevel');
+
+  on_load_complete();
+}
+
+
+function init_common() {
+
+  // jquery plugin to change element types
+  (function($) {
+    $.fn.changeElementType = function(newType) {
+      var attrs = {};
+
+      $.each(this[0].attributes, function(idx, attr) {
+        attrs[attr.nodeName] = attr.nodeValue;
+      });
+
+      this.replaceWith(function() {
+        return $("<" + newType + "/>", attrs).append($(this).contents());
+      });
+    };
+  })(jQuery);
+
+  // prevent underline for linked images
+  $('a > img').parent().css({'border-bottom' : 'none'});
+
+  // mark non-body figures created by knitr chunks as 100% width
+  $('.layout-chunk').each(function(i, val) {
+    var figures = $(this).find('img, .html-widget');
+    if ($(this).attr('data-layout') !== "l-body") {
+      figures.css('width', '100%');
+    } else {
+      figures.css('max-width', '100%');
+      figures.filter("[width]").each(function(i, val) {
+        var fig = $(this);
+        fig.css('width', fig.attr('width') + 'px');
+      });
+
+    }
+  });
+
+  // auto-append index.html to post-preview links in file: protocol
+  // and in rstudio ide preview
+  $('.post-preview').each(function(i, val) {
+    if (window.location.protocol === "file:")
+      $(this).attr('href', $(this).attr('href') + "index.html");
+  });
+
+  // get rid of index.html references in header
+  if (window.location.protocol !== "file:") {
+    $('.distill-site-header a[href]').each(function(i,val) {
+      $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+    });
+  }
+
+  // add class to pandoc style tables
+  $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+  $('.kable-table').children('table').addClass('pandoc-table');
+
+  // add figcaption style to table captions
+  $('caption').parent('table').addClass("figcaption");
+
+  // initialize posts list
+  if (window.init_posts_list)
+    window.init_posts_list();
+
+  // implmement disqus comment link
+  $('.disqus-comment-count').click(function() {
+    window.headroom_prevent_pin = true;
+    $('#disqus_thread').toggleClass('hidden');
+    if (!$('#disqus_thread').hasClass('hidden')) {
+      var offset = $(this).offset();
+      $(window).resize();
+      $('html, body').animate({
+        scrollTop: offset.top - 35
+      });
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  if (is_downlevel_browser())
+    init_downlevel();
+  else
+    window.addEventListener('WebComponentsReady', init_distill);
+});
+
+</script>
+
+<!--/radix_placeholder_distill-->
+  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+<style type="text/css">
+.distill-site-nav {
+  color: #F4E9DA;
+  background-color: #1E3D58;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.distill-site-nav a:hover {
+  color: #FBBE4B;
+}
+
+h1 {
+  color: #1E3D58;
+}
+
+h2 {
+  color: #1E3D58;
+	border-bottom: 0;
+}
+</style>
+<!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Reproducing a Grattan Institute map","description":"Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2017-08-11T00:00:00.000-04:00","citationText":"Alexander, 2017"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="../../index.html" class="title">Rohan Alexander</a>
+</div>
+<div class="nav-right">
+<a href="../../index.html">Home</a>
+<a href="../../academic.html">Academic</a>
+<a href="../../blog.html">Blog</a>
+<a href="../../bookshelf.html">Bookshelf</a>
+<a href="../../brownbag.html">Brown bag</a>
+<a href="../../teaching.html">Teaching</a>
+<a href="../../other.html">Other</a>
+<a href="https://twitter.com/RohanAlexander">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="https://github.com/RohanAlexander">
+<i class="fab fa-github"></i>
+</a>
+<a href="mailto:rohan.alexander@utoronto.ca">
+<i class="far fa-paper-plane"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Reproducing a Grattan Institute map</h1>
+<p>Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.</p>
+</div>
+
+<div class="d-byline">
+  Rohan Alexander  
+  
+<br/>2017-08-11
+</div>
+
+<div class="d-article">
+<p><em>Thank you to Monica for her helpful edits.</em></p>
+<p><em>Geoffrey Liu found an error in how I deal with the postcodes data that I haven’t fixed yet.</em></p>
+<h1 id="introduction">Introduction</h1>
+<p>The Grattan Institute is an Australian think tank that produces reports about public policy. Last week they released <a href="https://grattan.edu.au/report/regional-patterns-of-australias-economy-and-population/">‘Regional patterns of Australia’s economy and population’</a>. That report looks into the differences between geographic areas across various economic and demographic variables. It includes interactive maps made using Carto. The Grattan Institute also released the datasets that underpin the report’s maps and graphs.</p>
+<p>I was interested to see if I could reproduce one of their interactive maps - <a href="https://grattan.carto.com/me">Annual income growth per person (FY04 - FY15)</a> - in an hour using R and the Leaflet package. A day later I found the underlying dataset did not correspond with the map that the Grattan Institute published. But following the methodology in the report I was able to create a dataset that seems pretty close to the values illustrated on their map.</p>
+<p>The final map that I produced is below (it’ll take about 5 seconds to load) and this note records what I did to produce it in R using the Leaflet package.</p>
+<div class="layout-chunk" data-layout="l-body">
+<iframe src="https://rohanalexander.shinyapps.io/grattan/?showcase=0" width="624" height="600px">
+</iframe>
+</div>
+<h1 id="workspace">Workspace</h1>
+<p>The first step was to set-up the workspace. Mostly this just meant loading packages. The <tt>tidyverse</tt> and <tt>magrittr</tt> packages help with general data manipulation tasks; <tt>zoo</tt> helps with the rolling average needed later; and <tt>leaflet</tt>, <tt>rgdal</tt>, and <tt>rmapshaper</tt> are specific to mapping.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+library(tidyverse)
+library(magrittr)
+library(zoo)
+library(leaflet)
+library(rgdal)
+library(rmapshaper)</code></pre>
+</div>
+<h1 id="data">Data</h1>
+<p>I decided to reproduce Figure 2.4 of the report. This shows the average annual growth in real taxable income per tax filer between the financial years 2003/04 and 2014/15 for the 2011 SA3 areas. To do this I needed the incomes data that the Grattan Institute mapped and the geographic data that defines the areas.</p>
+<h2 id="incomes">Incomes</h2>
+<p>The Grattan Institute released the datasets that they said had been mapped. It was straightforward to download this file and export the relevant sheet as a csv file. The Excel file is available at <a href="https://grattan.edu.au/report/regional-patterns-of-australias-economy-and-population/" class="uri">https://grattan.edu.au/report/regional-patterns-of-australias-economy-and-population/</a> (in the left panel).</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# Import the income data that has been taken from the Grattan data download, sheet &#39;Figure 2.4&#39; (which was saved as a csv).
+incomes &lt;- read_csv(&quot;data/890-Regional-patterns-chart-data.csv&quot;)
+# Remove some debris columns
+incomes &lt;- incomes %&gt;%
+  select(&quot;SA3&quot;, &quot;Growth_mean_income_FY04_FY15&quot;)</code></pre>
+</div>
+<h2 id="geographies">Geographies</h2>
+<p>The other dataset that I needed was the geographies that the Grattan Institute had used. I initially wasted a lot of time using the 2016 SA3 release. Eventually I realised they were using the SA3 release from 2011. This is available from the ABS website at: <a href="http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202011?OpenDocument" class="uri">http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.001July%202011?OpenDocument</a> and I used the zipped file: ‘Statistical Area Level 3 (SA3) ASGS Ed 2011 Digital Boundaries in ESRI Shapefile Format’.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# 2011 SA3 boundaries
+old_boundaries &lt;- readOGR(dsn = &quot;data/1270055001_sa3_2011_aust_shape&quot;, layer = &quot;SA3_2011_AUST&quot;)
+# Add the income data into the boundaries dataset
+old_boundaries &lt;- merge(old_boundaries, incomes, by.x = &quot;SA3_NAME11&quot;, by.y = &quot;SA3&quot;)</code></pre>
+</div>
+<p>Comparing the incomes data with the 2011 geographies data indicates the incomes data is missing two SA3 areas: ‘Illawarra Catchment Reserve’ and ‘Blue Mountains - South’. I also found these areas had been left as NA in the Grattan Institute’s interactive map. This made me confident that the Grattan Institute was using the 2011 boundaries (I may have missed it but I don’t think this was documented).</p>
+<h1 id="map">Map</h1>
+<p>Making the map was not complicated once the pieces were in place. I called Leaflet and specified a black and white base map. After that I adjusted the default view and then added the patchwork quilt that shows the incomes dataset by SA3 area.</p>
+<p>I didn’t spend too much time on the colours because the inferno palette got fairly close. I just copied their published bins to reproduce the breaks that the Grattan Institute used. Box 1 in Appendix A of the Grattan Institute’s report specifies how they came up with these bins. Give my purposes I didn’t worry too much about this.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# Set the color scheme 
+pal &lt;- colorBin(
+  palette = &quot;inferno&quot;,
+  domain = old_boundaries$Growth_mean_income_FY04_FY15,
+  bins = c(0, 0.005, 0.012, 0.015, 0.017, 0.019, 0.022, 0.029, 0.07),
+  reverse = TRUE
+  )
+
+# Make the map
+Australia_incomes_map &lt;- 
+  leaflet() %&gt;%
+  # Base map
+  addProviderTiles(providers$Stamen.TonerLite, group = &quot;Toner Lite&quot;) %&gt;% 
+  setView(lng = 133.7751, lat = -25.2744, zoom = 4) %&gt;% # Specify where the map is initially focused
+  addPolygons(data = old_boundaries, 
+              color = pal(old_boundaries$Growth_mean_income_FY04_FY15), 
+              weight = 1, 
+              stroke = FALSE,
+              smoothFactor = 0.5,
+              fillOpacity = 0.8, 
+              label = paste(&quot;Area name (SA3):&quot;, as.character(old_boundaries$SA3_NAME11), 
+                            &quot;Mean annual growth:&quot;, as.character(old_boundaries$Growth_mean_income_FY04_FY15)),
+              highlightOptions = highlightOptions(color = &quot;#666&quot;, weight = 2, bringToFront = FALSE)) %&gt;% 
+  addLegend(&quot;bottomright&quot;, pal = pal, values = old_boundaries$Growth_mean_income_FY04_FY15,
+            title = &quot;Mean annual income growth (FY04 - FY15)&quot;,
+            opacity = 0.4
+  )
+
+# Call the map
+Australia_incomes_map</code></pre>
+</div>
+<p>There were many small changes that could be made to better reproduce the Grattan Institute’s map, but at this stage I realised there was something going on with the data. I decided to spend more time with that than tweaking the remaining aspects.</p>
+<h1 id="comparison">Comparison</h1>
+<h2 id="issues">Issues</h2>
+<p>Comparing screenshots of the maps shows some of the issues:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-6"></span>
+<img src="images/grattan.png" alt="Grattan's map" width="944" />
+<p class="caption">
+Figure 1: Grattan’s map
+</p>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span id="fig:unnamed-chunk-7"></span>
+<img src="images/me.png" alt="My map" width="1135" />
+<p class="caption">
+Figure 2: My map
+</p>
+</div>
+</div>
+<p>For instance there are areas where my map has a lot more variation such as:</p>
+<ul>
+<li>the northern SA3 areas of Queensland; and</li>
+<li>the SA3 areas in the south west of Western Australia.</li>
+</ul>
+<p>And there are also some areas where the colours are fairly different (notwithstanding the fact that I didn’t match theirs exactly), such as:</p>
+<ul>
+<li>west of Melbourne where my values are a lot higher.</li>
+</ul>
+<h2 id="triage">Triage</h2>
+<p>I checked that I was using the dataset that I had meant to use. While I was checking this dataset (which is the one that the Grattan Institute makes available) I noticed that the numbers in the Grattan Institute’s dataset were not always the ones that were being mapped. This was easy to see because they included a static version of the map next to the dataset, so I was confident it was meant to be the same.</p>
+<p>I couldn’t work out how to download the actual dataset underlying the interactive Carto map. But I was able to check some on an area-by-area basis because the value was displayed on mouse-hover. I found that the figure that was displayed did line up with the colour of the area, but not the dataset that they offered as underpinning the map.</p>
+<p>The following table summarises some of the SA3 areas in north Queensland.</p>
+<table>
+<thead>
+<tr class="header">
+<th>SA3 Area</th>
+<th>Grattan Carto value</th>
+<th>Grattan data value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cairns - South</td>
+<td>1.73</td>
+<td>2.0</td>
+</tr>
+<tr class="even">
+<td>Charters Towers - Ayr - Ingham</td>
+<td>2.35</td>
+<td>1.6</td>
+</tr>
+<tr class="odd">
+<td>Far North</td>
+<td>2.66</td>
+<td>3.0</td>
+</tr>
+<tr class="even">
+<td>Outback - North</td>
+<td>2.33</td>
+<td>1.7</td>
+</tr>
+<tr class="odd">
+<td>Port Douglas - Daintree</td>
+<td>1.73</td>
+<td>1.4</td>
+</tr>
+<tr class="even">
+<td>Tablelands (East) - Kuranda</td>
+<td>2.23</td>
+<td>1.6</td>
+</tr>
+</tbody>
+</table>
+<p>The key issue was whether it was the Carto map or the dataset that was wrong.</p>
+<h1 id="down-the-rabbit-hole">Down the rabbit hole</h1>
+<p>By this stage it was after dinner, and I’d had a glass or three of wine. But the only way to work out whether it was the dataset or the map that was wrong was to recreate the dataset myself. To do this I needed:</p>
+<ul>
+<li>incomes data for financial years 2003-04 and 2014-15;</li>
+<li>an inflation rate over this time to make the 2003-04 data real; and</li>
+<li>a correspondence from postcodes to the 2011 SA3 areas.</li>
+</ul>
+<p>Without their code it would be hard to be certain, but the Grattan Institute provided enough information in the report that I was confident I could get reasonably close to what they’d done.</p>
+<h2 id="incomes-1">Incomes</h2>
+<p>The incomes data is from Table 8 of the ATO’s 2015 tax stats which is available here: <a href="https://data.gov.au/dataset/taxation-statistics-2014-15/resource/02e58971-ddee-4f77-af15-5c45de569ed6" class="uri">https://data.gov.au/dataset/taxation-statistics-2014-15/resource/02e58971-ddee-4f77-af15-5c45de569ed6</a></p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# Import the tax data
+tax_data &lt;- read_csv(&quot;data/taxstats2015individual08medianaveragetaxableincomestateterritorypostcode.csv&quot;, skip = 2, col_names = FALSE)
+# Remove the debris rows
+tax_data &lt;- tax_data[2:2254,]
+# Grattan says we only need postcode, the 2003/04 data and the 2014/15 data, so drop the rest of the variables
+tax_data &lt;- tax_data %&gt;%
+  select(X2:X5, X11:X13)
+# Fix the column names
+tax_data &lt;- rename(tax_data, &quot;postcode&quot; = X2, &quot;population_0304&quot; = X3, &quot;median_inc_0304&quot; = X4, &quot;ave_inc_0304&quot; = X5, &quot;population_1415&quot; = X11, &quot;median_inc_1415&quot; = X12, &quot;ave_inc_1415&quot; = X13)
+# Finally, change the classes to numeric (need to remove the comma first)
+tax_data$population_0304 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$population_0304)
+tax_data$median_inc_0304 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$median_inc_0304)
+tax_data$ave_inc_0304 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$ave_inc_0304)
+tax_data$population_1415 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$population_1415)
+tax_data$median_inc_1415 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$median_inc_1415)
+tax_data$ave_inc_1415 &lt;- sub(&quot;,&quot;, &quot;&quot;, tax_data$ave_inc_1415)
+tax_data$postcode &lt;- as.numeric(tax_data$postcode)
+tax_data$population_0304 &lt;- as.numeric(tax_data$population_0304)
+tax_data$median_inc_0304 &lt;- as.numeric(tax_data$median_inc_0304)
+tax_data$ave_inc_0304 &lt;- as.numeric(tax_data$ave_inc_0304)
+tax_data$population_1415 &lt;- as.numeric(tax_data$population_1415)
+tax_data$median_inc_1415 &lt;- as.numeric(tax_data$median_inc_1415)
+tax_data$ave_inc_1415 &lt;- as.numeric(tax_data$ave_inc_1415)</code></pre>
+</div>
+<h2 id="inflation">Inflation</h2>
+<p>I needed to change the financial year 2003-04 incomes into 2014-15 dollars. In the Grattan Institute’s report (p. 34) they say:</p>
+<blockquote>
+<p>Nominal income for the 2003-04 financial year was adjusted to real 2014-15 dollars, using a yearly average of ABS quarterly data on the Consumer Price Index, starting from the 2003 September quarter.</p>
+</blockquote>
+<p>I downloaded the inflation data that they specified from: <a href="http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/6401.0Mar%202017?OpenDocument" class="uri">http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/6401.0Mar%202017?OpenDocument</a> (it is Series A2325846C which is in Tables 1 and 2 of the release). I wasn’t exactly sure how the Grattan Institute constructed its measure, but I decided to just go with the RBA formula (<a href="http://www.rba.gov.au/calculator/" class="uri">http://www.rba.gov.au/calculator/</a>) which is: (Average of the four quarters in the final year / average of the four quarters in the first year - 1) *100, although I didn’t need to worry about removing one or the multiplying.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# Import the inflation data
+inflation_data &lt;- read_csv(&quot;data/640101.csv&quot;, skip = 10, col_names = FALSE)
+# Grab the series they use: A2325846C
+inflation_data &lt;- inflation_data %&gt;%
+  select(X1, X10)
+# Fix the column names
+inflation_data &lt;- rename(inflation_data, 
+                   &quot;quarter&quot; = X1,
+                   &quot;index_value&quot; = X10
+)
+# To use the RBA formula we need the average index number over the four quarters
+inflation_data &lt;- inflation_data %&gt;%
+  mutate(
+    average_index_over_year = rollmean(index_value, 4, align = &#39;right&#39;, fill = NA)
+  )
+# Now we just use (final_year_ave / first_year_ave) (don&#39;t need to bother with removing the 1 or multiplying by 100 because we are just going to multiply the first year data up to get in terms of final year)
+inflation_rate &lt;- 
+  ((inflation_data$average_index_over_year[inflation_data$quarter == &quot;Jun-2015&quot;] / inflation_data$average_index_over_year[inflation_data$quarter == &quot;Jun-2004&quot;]))</code></pre>
+</div>
+<p>The inflation adjustment turned out to be about 1.34. I also worked out the annual inflation rates and then chained them, and also tried just using the start and end quarter index numbers (not averaged). They came to similar values, so even though I wasn’t exactly sure what the Grattan Institute had done, I was confident that small differences wouldn’t matter too much.</p>
+<h2 id="growth">Growth</h2>
+<p>I then needed to create the annual growth rate that the Grattan Institute used (p. 34):</p>
+<blockquote>
+<p>Growth in taxable income is calculated as a compound annual growth rate from the 2003-04 financial year to the 2014-15 financial year.</p>
+</blockquote>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+## Data manipulation - create the new interest variable that is of interest - 11 years?
+tax_data &lt;- tax_data %&gt;%
+  mutate(
+    real_ave_inc_0304 = ave_inc_0304 * inflation_rate,
+    real_median_inc_0304 = median_inc_0304 * inflation_rate,
+    annual_ave_growth = (ave_inc_1415/real_ave_inc_0304)^(1/11),
+    annual_median_growth = (median_inc_1415/real_median_inc_0304)^(1/11)
+  )</code></pre>
+</div>
+<h2 id="correspondence">Correspondence</h2>
+<p>The incomes data that the ATO makes available is on a postcode basis. I needed to convert this into 2011 SA3 levels and the ABS makes a correspondence for this purpose. This is available at: <a href="http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.006July%202011?OpenDocument" class="uri">http://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.006July%202011?OpenDocument</a> where the correct table is the zipped file ‘Postcode 2011 to Statistical Area Level 3 2011’.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+# Import the correspondence
+correspondence &lt;- read_csv(&quot;data/1270055006_CG_POSTCODE_2011_SA3_2011.csv&quot;, skip = 7, col_names = FALSE)
+correspondence &lt;- correspondence %&gt;%
+  select(X2:X6)
+# Fix the column names
+correspondence &lt;- rename(correspondence, 
+                   &quot;postcode&quot; = X2,
+                   &quot;SA3_CODE_2011&quot; = X3,
+                   &quot;SA3_NAME_2011&quot; = X4,
+                   &quot;ratio&quot; = X5,
+                   &quot;percentage&quot; = X6
+)
+
+correspondence &lt;- merge(correspondence, tax_data, by.x = &quot;postcode&quot;, by.y = &quot;postcode&quot;)
+match
+
+correspondence &lt;- correspondence %&gt;%
+  mutate(
+    contribution_ave = ratio * annual_ave_growth,
+    contribution_median = ratio * annual_median_growth
+  )
+
+sa3_data &lt;- correspondence %&gt;%
+  group_by(SA3_NAME_2011) %&gt;%
+  summarise(
+    ave_growth = weighted.mean(annual_ave_growth, ratio, na.rm = T),
+    median_growth = weighted.mean(annual_median_growth, ratio, na.rm = T)
+  )</code></pre>
+</div>
+<h2 id="putting-it-all-together">Putting it all together</h2>
+<p>This result of all this is that I created a dataset that seems pretty much the same as the one that the Grattan Institute mapped, but not the one that they released.</p>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="r"><code>
+#load(&quot;sa3_data.Rda&quot;)
+#head(sa3_data, n = 20)</code></pre>
+</div>
+<p>My dataset can be downloaded as a csv here: <a href="https://github.com/RohanAlexander/blogdown_website/blob/master/content/post/sa3_data.csv" class="uri">https://github.com/RohanAlexander/blogdown_website/blob/master/content/post/sa3_data.csv</a></p>
+<p>The values underlying the Grattan Carto map and the values that I generated are the same for the five 2011 SA3 areas in the earlier table:</p>
+<table>
+<thead>
+<tr class="header">
+<th>SA3 Area</th>
+<th>Grattan Carto value</th>
+<th>Grattan data value</th>
+<th>My value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cairns - South</td>
+<td>1.73</td>
+<td>2.0</td>
+<td>1.73</td>
+</tr>
+<tr class="even">
+<td>Charters Towers - Ayr - Ingham</td>
+<td>2.35</td>
+<td>1.6</td>
+<td>2.35</td>
+</tr>
+<tr class="odd">
+<td>Far North</td>
+<td>2.66</td>
+<td>3.0</td>
+<td>2.66</td>
+</tr>
+<tr class="even">
+<td>Outback - North</td>
+<td>2.33</td>
+<td>1.7</td>
+<td>2.33</td>
+</tr>
+<tr class="odd">
+<td>Port Douglas - Daintree</td>
+<td>1.73</td>
+<td>1.4</td>
+<td>1.73</td>
+</tr>
+<tr class="even">
+<td>Tablelands (East) - Kuranda</td>
+<td>2.23</td>
+<td>1.6</td>
+<td>2.23</td>
+</tr>
+</tbody>
+</table>
+<p>After having compared my values with theirs I think that in their Excel dataset the Grattan Institute ordered the columns for the SA3 areas and the incomes data separately instead of together.</p>
+<h2 id="reconciliation">Reconciliation</h2>
+<p>I’ve reached out to the Grattan Institute and will update this post based on what they say.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>The Grattan Institute is probably Australia’s most important think tank in terms of not being overly associated with one side of politics but still making a contribution to thinking on policy. It is good that they are being more open about their datasets, but it would be much better if they made their code available. Using tools like Leaflet and ggmap instead of Carto would help with this.</p>
+<p>It was fun to spend the day in the data-analyst’s version of a treasure chase. But hopefully the next time I decide to reproduce a Grattan Institute map common sense prevails before I go too far down the rabbit hole.</p>
+<figure>
+<img src="https://imgs.xkcd.com/comics/duty_calls.png" alt="I regret nothing :)" /><figcaption>I regret nothing :)</figcaption>
+</figure>
+<p><em>Disclosures: In the interest of transparency I’ll point out that I applied unsuccessfully for a job at the Grattan Institute about five years ago. One friend works as a research assistant for them on a casual basis; and there are a few friends-of-friends who work there full time, but I haven’t talked about this post with any of them.</em></p>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+  <h3 id="citation">Citation</h3>
+  <p>For attribution, please cite this work as</p>
+  <pre class="citation-appendix short">Alexander (2017, Aug. 11). Rohan Alexander: Reproducing a Grattan Institute map. Retrieved from https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/</pre>
+  <p>BibTeX citation</p>
+  <pre class="citation-appendix long">@misc{alexander2017reproducing,
+  author = {Alexander, Rohan},
+  title = {Rohan Alexander: Reproducing a Grattan Institute map},
+  url = {https://rohanalexander.com/posts/2017-08-11-reproducing-a-grattan-map/},
+  year = {2017}
+}</pre>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
