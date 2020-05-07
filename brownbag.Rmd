@@ -9,7 +9,7 @@ description: |
 
 # Overview
 
-In any data science project a lot of time is spent on data cleaning, preparation, and maintenance, but these steps are rarely talked about, let alone written down. This means that there is a lot of reinvention and it can be difficult to know what best practice is. To help address this [Rohan Alexander](https://rohanalexander.com/) and [Prof Kelly Lyons](http://individual.utoronto.ca/klyons/) run a multidisciplinary brown bag that focuses on data cleaning. The series is a chance to share what we do in these crucial, yet little discussed, stages.
+In any data science project a lot of time is spent on data cleaning, preparation, and maintenance, but these steps are rarely talked about, let alone written down. This means that there is a lot of reinvention and it can be difficult to know what best practice is. To help address this [Rohan Alexander](https://rohanalexander.com/) and [Kelly Lyons](http://individual.utoronto.ca/klyons/) run a multidisciplinary brown bag that focuses on data cleaning. The series is a chance to share what we do in these crucial, yet little discussed, stages.
 
 We meet for an hour roughly every week and we aim to have a roughly even split of speakers from academia and industry over the course of the term. Usually each speaker talks for 20 to 30 minutes and we then have a bit of time for questions.
 
@@ -18,45 +18,51 @@ Anyone is welcome to attend - you don't need to be affiliated with the universit
 
 # Location and time
 
-In the Summer Term we will meet Thursdays at 4-5pm via Zoom. For details and an invitation to attend please [get in touch](mailto:rohan.alexander@utoronto.ca). 
+In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For details and an invitation to attend please [get in touch](mailto:rohan.alexander@utoronto.ca). 
 
 
 ### Summer 2020 Speakers
 
 
 * *Thursday, 21 May 2020, 4-5pm*  
-	[Rohan Alexander](rohanalexander.com) (University of Toronto, Information)  
-	Rohan is a post-doctoral fellow at the Faculty of Information, University of Toronto. He holds a PhD in Economics from the Australian National University. He will talk about getting data from PDFs into R, with an application to the Kenyan census.
+	**Rohan Alexander** (University of Toronto, Information)  
+	[Rohan](rohanalexander.com) is a post-doctoral fellow at the Faculty of Information, University of Toronto. He holds a PhD in Economics from the Australian National University. He will talk about getting data from PDFs into R, with an application to the Kenyan census.
 * *Thursday, 28 May 2020, 4-5pm*  
-	[Shiro Kuriwaki](https://www.shirokuriwaki.com/) (Harvard University)  
-	Shiro is a Ph.D. Candidate at the Department of Government, Harvard University. His research focuses on democratic representation in American Politics, for instance cast vote records, public opinion, survey methods, and applied statistics more generally. Shiro will talk about the Cooperative Congressional Election Study (CCES) survey, in particular thinking about automating project workflow.
+	**Shiro Kuriwaki** (Harvard University, Government)  
+	[Shiro](https://www.shirokuriwaki.com/) is a Ph.D. Candidate at the Department of Government, Harvard University. His research focuses on democratic representation in American Politics, for instance cast vote records, public opinion, survey methods, and applied statistics more generally. Shiro will talk about Github + RStudio project + Dataverse + R package workflows for interrelated projects: The case of the Cooperative Congressional Election Study Data, which he uses for a number of projects.
 * *Thursday, 4 June 2020, 4-5pm*  
-	Marija Pejcinovska (University of Toronto, Statistics)  
+	**Marija Pejcinovska** (University of Toronto, Statistics)  
 	Marija is a first-year PhD student at the University of Toronto Department of Statistical Sciences. Her research interests (though not yet settled) lie largely in applied statistics and are frequently motivated by modeling challenges that arise mainly in the social sciences. Marija will talk about a project for the WHO focusing on maternal mortality across many countries.
 * *Thursday, 11 June 2020, 4-5pm*  
-	[Harrison Jones](https://ca.linkedin.com/in/harrison-jones-a9947b60) (Deloitte)  
-	Harrison is a Manager at Deloitte in Toronto, where he focuses on data analytics and machine learning in the property & casualty insurance, life insurance, health insurance, pensions, and the public sector. Harrison will talk about using R with actuarial data.
+	**Harrison Jones** (Deloitte)  
+	[Harrison](https://ca.linkedin.com/in/harrison-jones-a9947b60) is a Manager at Deloitte in Toronto, where he focuses on data analytics and machine learning in the property & casualty insurance, life insurance, health insurance, pensions, and the public sector. Harrison will talk about using R with actuarial data.
 * *Thursday, 18 June 2020, 4-5pm*  
-	[Sharla Gelfand](https://sharla.party/) (Freelance R Developer)  
-	Sharla is a freelance R developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. Sharla will talk about the #TwoFunctionsMostDays project, both the project itself as well as how to discover new things and creating a small, reproducible example.
+	**Sharla Gelfand** (Freelance R Developer)  
+	[Sharla](https://sharla.party/) is a freelance R developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. Sharly will talk about the #TwoFunctionsMostDays project, which is a project dedicated to sharing R functions and tips on Twitter. This talk will cover the project itself and discuss other things, like how she discovers new functions and how to create a small, reproducible, but meaningful example.
 * *Thursday, 25 June 2020, 4-5pm*  
-	A Mahfouz (University of Toronto, Information)  
+	**A Mahfouz** (University of Toronto, Information)  
 	A is a Master of Information student at the University of Toronto with a background in geography. Their prior work has been largely concerned with data pipelines. A will talk about geographic data cleaning, extracting mappable data from Google Directions API results in Python.
 * *Thursday, 2 July 2020, 4-5pm*  
-	Heather McBrien (University of Toronto, Statistics)  
+	**Heather McBrien** (University of Toronto, Statistics)  
 	Heather just graduated from the Statistics BSc program at the Univeristy of Toronto, and is interested in modelling in population health research, particularly using novel data sources to answer questions where traditional data is lacking. Heather will talk about cleaning and using new data sets for examining opioid mortality trends in the US, in R, and results from those data.
 * *Thursday, 9 July 2020, 4-5pm*  
-	Roxanne Chui (University of Toronto, Information)  
+	**Roxanne Chui** (University of Toronto, Information)  
 	Roxanne is an emerging anthropological data science professional. She did her BSc program in Forensic anthropology and worked in the pharmceutical industry before doing her Masters in data science. She is passionate about excavating context from data for predicting future patterns of human behaviour. Roxanne will talk about a DEA approach to Tokyo AirBnB datasets and pattern discovery in listing prices using R - 'What do we have here among  millions of observations?'
 * *Thursday, 16 July 2020, 4-5pm*  
-	Aije Egwaikhide (IBM)  
+	**Aije Egwaikhide** (IBM)  
 	Aije will talk about getting data ready for OCR training.
 * *Thursday, 23 July 2020, 4-5pm*  
-	[Monica Alexander](monicalexander.com) (University of Toronto, Statistics and Sociology)  
-	Monica is an Assistant Professor in Statistical Sciences and Sociology at the University of Toronto. She received her PhD in Demography from the University of California, Berkeley. Monica will talk about preparing demographic data.
+	**Monica Alexander** (University of Toronto, Statistics and Sociology)  
+	[Monica](monicalexander.com) is an Assistant Professor in Statistical Sciences and Sociology at the University of Toronto. She received her PhD in Demography from the University of California, Berkeley. Monica will talk about preparing demographic data.
+* *Thursday, 30 July 2020, 4-5pm*  
+	**Alex Luscombe** (University of Toronto, Criminology and Sociolegal Studies)  
+	**Alexander McClelland** (University of Ottawa, Criminology)  
+	[Alex Luscombe](https://criminology.utoronto.ca/facultyandstaff/graduate-students/alex-luscombe/) is a PhD student in the Centre for Criminology & Sociolegal Studies and a Junior Fellow at Massey College. [Alexander McClelland](https://www.alexandermcclelland.ca/) is a sociolegal researcher and Banting Postdoctoral Fellow at the University of Ottawa in the Department of Criminology. 	They will talk about [Policing the Pandemic](https://www.policingthepandemic.ca/), which is a project that was launched on 4 April, 2020, to track and visualize the massive and extraordinary expansions of police power in response to the COVID-19 Pandemic and the unequal patterns of enforcement that may arise as  a result. 
 
 
 
+
+	
 
 
 

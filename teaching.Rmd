@@ -27,6 +27,9 @@ description: |
 
 
 # Short courses and workshops
+* Instructor, Gathering Data from Messy Sources
+    - *(Upcoming)* University of Toronto, Independent Summer Statistics Community, 22 May 2020.
+
 * Instructor, [Getting started with MRP](http://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp/)
     - *(Upcoming)* University of Toronto, Sociology Quant Week, 2 September 2020.
     - Australian National University, 3 December 2019.
