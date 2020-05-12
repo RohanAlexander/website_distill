@@ -17,10 +17,10 @@ navbar:
       href: blog.html
     - text: "Bookshelf"
       href: bookshelf.html
-    - text: "Brown bag"
-      href: brownbag.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Toronto Data Workshop"
+      href: toronto_data_workshop.html
     - text: "Other"
       href: other.html
     - icon: fab fa-twitter

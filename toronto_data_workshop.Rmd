@@ -1,19 +1,24 @@
 ---
-title: "Brownbag"
+title: "Toronto Data Workshop"
 description: |
-  An hour-long discussion about cleaning, preparing, and 
-  maintaining data in academia and industry. All welcome! 
+  A weekly hour-long discussion about data collection; data cleaning; and data storage, retrieval, dissemination, and protection in academia and industry. All welcome! 
   If you would like to receive emails about the series, 
   please [get in touch](mailto:rohan.alexander@utoronto.ca).
 ---
 
+```{r, out.width= "35%"}
+knitr::include_graphics("images/toronto_data_workshop.png") 
+```
+
 # Overview
 
-In any data science project, a lot of time is spent on data cleaning, preparation, and maintenance, but these steps are rarely talked about, let alone written down. This means that there is a lot of reinvention and it can be difficult to know what best practice is. To help address this [Rohan Alexander](https://rohanalexander.com/) and [Kelly Lyons](http://individual.utoronto.ca/klyons/) run a multidisciplinary brown bag that focuses on data cleaning. The series is a chance to share what we do in these crucial, yet little discussed, stages.
+The Toronto Data Workshop (TDW) was co-founded by [Rohan Alexander](https://rohanalexander.com/) and [Kelly Lyons](http://individual.utoronto.ca/klyons/) to bring together researchers from many academic disciplines and industry to collectively consider, collate, share, and disseminate best practices in the critical initial steps in a data science project: data collection; data cleaning; and data storage, retrieval, dissemination, and protection.
 
-We meet for an hour roughly every week and we aim to have a roughly even split of speakers from academia and industry over the course of the term. Usually each speaker talks for 20 to 30 minutes and we then have a bit of time for questions.
+Since Fall 2019, our multidisciplinary workshop has brought together academic and industry participants to share what we do in these crucial, yet little discussed, stages of working with data and share data best practices. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. Participants come from many fields, including financial tech, digital humanities, and healthcare information, among others. 
 
 Anyone is welcome to attend - you don't need to be affiliated with the university. 
+
+We thank Wendy Duff and the Faculty of Information, University of Toronto, for support for this workshop.
 
 
 # Location and time
@@ -22,7 +27,6 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
 
 
 ### Summer 2020 Speakers
-
 
 * *Thursday, 21 May 2020, 4-5pm*  
 	**Rohan Alexander** (University of Toronto, Information)  

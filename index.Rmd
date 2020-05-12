@@ -13,7 +13,7 @@ I am a post-doc at the Faculty of Information at the University of Toronto, Cana
 
 My [academic research](https://rohanalexander.com/academic.html) answers questions in social sciences, such as: are our politicians actually representing us, do elections matter, and how can we make political polling better. To do this I build, clean, maintain, and share datasets in a reproducible way, and then use quantitative methods, such as text analysis, machine learning, and Bayesian hierarchical models, to analyse them.
 
-I run a [brown bag series](https://rohanalexander.com/brownbag.html) about data cleaning, which is more fun than it sounds; please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend or present!
+I co-founded the [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html),  which is more fun than it sounds; please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend or present!
 
 Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling.
 
