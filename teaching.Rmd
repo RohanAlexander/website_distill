@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: |
-  My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. 
+  My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers) and I enjoy teaching students from a wide range of backgrounds.
 ---
 
 
