@@ -4,12 +4,11 @@ description: |
   My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers) and I enjoy teaching students from a wide range of backgrounds.
 ---
 
-
+I have put together some notes to support my teaching. These are available here: https://www.tellingstorieswithdata.com/.
 
 # University of Toronto
 * *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall Term, 2020.
 * Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter Term, 2020.
-  - Course notes: https://www.tellingstorieswithdata.com/.
 
 # Australian National University
 * Tutor, Macroeconomics 3, Semester 2, 2017, [evaluations](pdfs/2018-02-05-Sem_2_2017-ECON3102_-_Macroeconomics_3.pdf) 
@@ -28,7 +27,7 @@ description: |
 
 # Short courses and workshops
 * Instructor, Gathering Data from Messy Sources
-    - *(Upcoming)* University of Toronto, Independent Summer Statistics Community, 22 May 2020.
+    - University of Toronto, Independent Summer Statistics Community, 22 May 2020.
 
 * Instructor, [Getting started with MRP](http://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp/)
     - *(Upcoming)* University of Toronto, Sociology Quant Week, 2 September 2020.
