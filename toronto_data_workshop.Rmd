@@ -42,7 +42,7 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
 	**Harrison Jones** (Deloitte)  
 	[Harrison](https://ca.linkedin.com/in/harrison-jones-a9947b60) is a Manager at Deloitte in Toronto, where he focuses on data analytics and machine learning in the property & casualty insurance, life insurance, health insurance, pensions, and the public sector. Harrison will talk about using R with actuarial data.
 * *Thursday, 18 June 2020*  
-	**Cancelled** in acknowledgement that black lives matter, and to provide an opportunity for reflection and learning. Recommendations from our community are available here: https://docs.google.com/document/d/1czi1cVFWPcoeGQpS_-4geXspQPdy5Xr0vXiAaYBmVRc/edit?usp=sharing.
+	**Cancelled** in acknowledgement that black lives matter, and to provide an opportunity for reflection and learning.
 * *Thursday, 25 June 2020, 4-5pm*  
 	**A Mahfouz** (University of Toronto, Information)  
 	A is a Master of Information student at the University of Toronto with a background in geography. Their prior work has been largely concerned with data pipelines. A will talk about geographic data cleaning, extracting mappable data from Google Directions API results in Python.
