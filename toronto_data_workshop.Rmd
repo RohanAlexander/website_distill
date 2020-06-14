@@ -10,6 +10,10 @@ description: |
 knitr::include_graphics("images/toronto_data_workshop.png") 
 ```
 
+
+**15 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/tdw_stipends.html) for more information**
+
+
 # Overview
 
 The Toronto Data Workshop (TDW) was co-founded by [Rohan Alexander](https://rohanalexander.com/) and [Kelly Lyons](http://individual.utoronto.ca/klyons/) to bring together researchers from many academic disciplines and industry to collectively consider, collate, share, and disseminate best practices in the critical initial steps in a data science project: data collection; data cleaning; and data storage, retrieval, dissemination, and protection.
