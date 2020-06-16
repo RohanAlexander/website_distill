@@ -11,7 +11,7 @@ knitr::include_graphics("images/toronto_data_workshop.png")
 ```
 
 
-**16 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/toronto_data_workshop-stipends.html) for more information**
+**16 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/toronto_data_workshop-stipends.html) for more information.**
 
 
 # Overview
