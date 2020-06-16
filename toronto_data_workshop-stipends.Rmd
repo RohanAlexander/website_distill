@@ -1,0 +1,29 @@
+---
+title: "Toronto Data Workshop Stipends"
+description: |
+---
+
+**We thank Dean Wendy Duff and the Faculty of Information; and Department Chair Radu Craiu and the Department of Statistical Sciences for their support of these stipends.**
+
+# Call for applications
+
+*16 June 2020*
+
+Kelly Lyons and Rohan Alexander are announcing three research stipends, each of $1,000, for University of Toronto students or recent graduates who identify as a member of a visible minority group, racialized group, or as a person of colour. The successful applicants will be invited to prepare a research paper on a topic of their choice under the supervision of a faculty mentor, and will be given the opportunity to present their paper at a meeting of the Toronto Data Workshop that suits their timetable.
+
+If you are interested in applying for this opportunity please email rohan.alexander@utoronto.ca, by the end of Monday 29 June 2020, attaching a single PDF that contains:
+
+1) A brief (1 page) overview of what your paper will be about. Some aspect of this paper should involve real-world data. Strong applications will include: a specific and important research question; evidence of developed ideas around data sources and methodology; and a clear motivation.
+2) Your CV. Strong applications will demonstrate potential through their grades and by reference to projects on GitHub or similar. 
+3) The name of a University of Toronto faculty member who has agreed to supervise this work.
+
+You are welcome to find your own supervisor, but if you do not have a faculty supervisor already, and do not feel comfortable asking someone, then any of the following current or future faculty are more than happy to supervise you, and you should get in touch with one that matches your interests:
+
+- [Jesse Gronsbell](https://jgrons.github.io/) (Statistics)
+- [Kelly Lyons](http://individual.utoronto.ca/klyons/) (Information)
+- [Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) (Statistics)
+- [Monica Alexander](https://www.monicaalexander.com/) (Statistics and Sociology)
+- [Rohan Alexander](https://rohanalexander.com/) (Information and Statistics)
+- [Vianey Leos Barajas](https://vleosbarajas.com/) (Statistics and Environment)
+
+If you have any questions about your application, then please email: rohan.alexander@utoronto.ca before the closing date.

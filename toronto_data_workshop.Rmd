@@ -11,18 +11,20 @@ knitr::include_graphics("images/toronto_data_workshop.png")
 ```
 
 
-**15 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/tdw_stipends.html) for more information**
+**16 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/toronto_data_workshop-stipends.html) for more information**
 
 
 # Overview
 
-The Toronto Data Workshop (TDW) was co-founded by [Rohan Alexander](https://rohanalexander.com/) and [Kelly Lyons](http://individual.utoronto.ca/klyons/) to bring together researchers from many academic disciplines and industry to collectively consider, collate, share, and disseminate best practices in the critical initial steps in a data science project: data collection; data cleaning; and data storage, retrieval, dissemination, and protection.
+The Toronto Data Workshop (TDW) brings together researchers from many academic disciplines and industry to collectively consider, collate, share, and disseminate best practices in the critical initial steps in a data science project: data collection; data cleaning; and data storage, retrieval, dissemination, and protection.
+
+The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Alexander.
 
 Since Fall 2019, our multidisciplinary workshop has brought together academic and industry participants to share what we do in these crucial, yet little discussed, stages of working with data and share data best practices. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. Participants come from many fields, including financial tech, digital humanities, and healthcare information, among others. 
 
 Anyone is welcome to attend - you don't need to be affiliated with the university. 
 
-We thank Wendy Duff and the Faculty of Information, University of Toronto, for support for this workshop.
+We thank Dean Wendy Duff and the Faculty of Information, University of Toronto, for support for this workshop.
 
 
 # Location and time
@@ -46,7 +48,7 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
 	**Harrison Jones** (Deloitte)  
 	[Harrison](https://ca.linkedin.com/in/harrison-jones-a9947b60) is a Manager at Deloitte in Toronto, where he focuses on data analytics and machine learning in the property & casualty insurance, life insurance, health insurance, pensions, and the public sector. Harrison will talk about using R with actuarial data.
 * *Thursday, 18 June 2020*  
-	**Cancelled** in acknowledgement that black lives matter, and to provide an opportunity for reflection and learning.
+	**Cancelled** in support of the Black Lives Matter movement and to provide an opportunity for reflection and learning.
 * *Thursday, 25 June 2020, 4-5pm*  
 	**A Mahfouz** (University of Toronto, Information)  
 	A is a Master of Information student at the University of Toronto with a background in geography. Their prior work has been largely concerned with data pipelines. A will talk about geographic data cleaning, extracting mappable data from Google Directions API results in Python.

@@ -7,8 +7,9 @@ description: |
 I have put together some notes to support my teaching. These are available here: https://www.tellingstorieswithdata.com/.
 
 # University of Toronto
-* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall Term, 2020.
-* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter Term, 2020.
+* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020.
+* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf) 
+
 
 # Australian National University
 * Tutor, Macroeconomics 3, Semester 2, 2017, [evaluations](pdfs/2018-02-05-Sem_2_2017-ECON3102_-_Macroeconomics_3.pdf) 

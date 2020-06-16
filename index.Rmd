@@ -9,7 +9,9 @@ Hi, I’m Rohan Alexander.
 knitr::include_graphics("images/portrait.jpg") 
 ```
 
-I am a post-doc at the Faculty of Information at the University of Toronto, Canada. 
+**16 June 2020: Kelly Lyons and I have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/toronto_data_workshop-stipends.html) for more information**
+
+I am a post-doc at the Faculty of Information at the University of Toronto, Canada. From July 2020, I will join the Faculty of Information and the Department of Statistical Sciences at the University of Toronto as an assistant professor.
 
 My [academic research](https://rohanalexander.com/academic.html) answers questions in social sciences, such as: are our politicians actually representing us, do elections matter, and how can we make political polling better. To do this I build, clean, maintain, and share datasets in a reproducible way, and then use quantitative methods, such as text analysis, machine learning, and Bayesian hierarchical models, to analyse them.
 
