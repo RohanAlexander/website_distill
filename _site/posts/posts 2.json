@@ -1,0 +1,390 @@
+[
+  {
+    "path": "posts/2020-04-14-tidying-the-2019-kenyan-census/",
+    "title": "Tidying the 2019 Kenyan Census",
+    "description": "In this note I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2020-04-14",
+    "categories": [],
+    "preview": "posts/2020-04-14-tidying-the-2019-kenyan-census/images/2020-04-10-screenshot-of-census.png",
+    "last_modified": "2020-05-10T10:03:57-04:00",
+    "preview_width": 1060,
+    "preview_height": 1500
+  },
+  {
+    "path": "posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/",
+    "title": "A review of 'Forecasting elections with non-representative polls'",
+    "description": "This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2020-02-11",
+    "categories": [],
+    "preview": "posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/page_1.png",
+    "last_modified": "2020-04-26T17:18:38-04:00",
+    "preview_width": 1168,
+    "preview_height": 1594
+  },
+  {
+    "path": "posts/2019-12-04-getting_started_with_mrp/",
+    "title": "Getting started with MRP",
+    "description": "Multi-level regression with post-stratification (MRP) is a popular way to adjust non-representative samples to better analyse opinion and other survey responses. I recently ran a hands-on workshop at the ANU, aimed at interested, but not experienced, social scientists to help de-mystify MRP. The workshop aimed to give participants the ability and confidence to: 1) critically read papers that use it; and 2) apply it in their own work. Examples of how to implement MRP were illustrated in R using the brms package. The following post gives the outline of the workshop and the material and coding exercises covered.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2019-12-03",
+    "categories": [],
+    "preview": "posts/2019-12-04-getting_started_with_mrp/getting-started-with-mrp_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2020-04-26T17:18:17-04:00",
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/2019-01-03-gathering-and-analysing-text-data/",
+    "title": "Gathering and analysing text data",
+    "description": "Text modelling is an exciting area of research. But many guides assume that you already have a nice dataset. Similarly, web scraping is an exciting way to get information, but not many explanations go on to explain what you could do with it. This post attempts to go from scraping text from a website through to modelling the topics. It's not meant to be an exhaustive post, but should hopefully provide enough that you can get started with your own project and know where to go for more information.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2019-01-03",
+    "categories": [],
+    "preview": "posts/2019-01-03-gathering-and-analysing-text-data/gathering-and-analysing-text-data_files/figure-html5/diagnosticmeasuregraphs-1.png",
+    "last_modified": "2020-04-26T17:17:00-04:00",
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/2018-08-13-cleaning-hansard/",
+    "title": "Cleaning Hansard: The pay's not great but the work is hard",
+    "description": "Cleaning the Australian Hansard is mind-numbing, annoying and time-consuming, but someone has to do it.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2018-08-13",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-04-26T17:16:42-04:00"
+  },
+  {
+    "path": "posts/2018-07-28-the-sql-is-never-as-good-as-the-original/",
+    "title": "The SQL Is Never As Good As The Original",
+    "description": "SQL is a popular way of working with data. Advanced users probably do a lot with it alone, but even just having a working knowledge of SQL has increased the number of datasets that I can get data from to then analyse with other tools such as R or Python. You can use SQL within RStudio if you want. The following are a few notes to help future-Rohan when he needs to use SQL. A worked example with a sample of the Hansard data will be included in a future post.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2018-07-28",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-04-26T17:16:22-04:00"
+  },
+  {
+    "path": "posts/2018-06-29-getting_started_with_topic_modelling-theory/",
+    "title": "Topic Modelling - Theory",
+    "description": "Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2018-06-29",
+    "categories": [],
+    "preview": "posts/2018-06-29-getting_started_with_topic_modelling-theory/topic_modelling-theory_files/figure-html5/topicsoverdocuments-1.png",
+    "last_modified": "2020-04-26T17:15:40-04:00",
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
+    "path": "posts/2017-09-14-getting-started-with-latex/",
+    "title": "Getting started with LaTeX",
+    "description": "LaTeX makes it easier to produce papers that look great, but it can be overwhelming at the start. These notes help you get up-and-running with LaTeX.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2017-09-14",
+    "categories": [],
+    "preview": "posts/2017-09-14-getting-started-with-latex/images/LaTeX_first_example.png",
+    "last_modified": "2020-04-26T17:15:24-04:00",
+    "preview_width": 1014,
+    "preview_height": 1448
+  },
+  {
+    "path": "posts/2017-08-11-reproducing-a-grattan-map/",
+    "title": "Reproducing a Grattan Institute map",
+    "description": "Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2017-08-11",
+    "categories": [],
+    "preview": "posts/2017-08-11-reproducing-a-grattan-map/images/grattan.png",
+    "last_modified": "2020-04-26T17:15:17-04:00",
+    "preview_width": 1888,
+    "preview_height": 1336
+  },
+  {
+    "path": "posts/2017-07-21-getting-started-with-blogdown/",
+    "title": "Getting started with Blogdown",
+    "description": "Blogdown is a package that allows you to make websites (not just blogs, notwithstanding its name) largely within R Studio. It builds on Hugo, which is a popular tool for making websites.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2017-07-21",
+    "categories": [],
+    "preview": "posts/2017-07-21-getting-started-with-blogdown/images/blogdown_github_1.png",
+    "last_modified": "2020-04-26T17:15:02-04:00",
+    "preview_width": 2152,
+    "preview_height": 1142
+  },
+  {
+    "path": "posts/2017-07-18-mapping-the-2016-australian-election-polling-place-results/",
+    "title": "Mapping the 2016 Australian Election Polling Place Results",
+    "description": "The note that follows introduces Australia's political system, and then details the process of downloading and merging first-preference votes by polling place, and then plotting it on an interactive map.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2017-07-18",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-04-26T17:14:56-04:00"
+  },
+  {
+    "path": "posts/2016-10-15-greitens-reports-for-duty/",
+    "title": "Greitens Reports For Duty",
+    "description": "Eric Greitens may be the Republican Übermensch. Rhodes Scholar, Navy SEAL officer, husband and father. He's now the Republican candidate in the Missouri gubernatorial election. And one suspects that being a governor could just be a step for Greitens. While 2016 will always be the year that US politics descended to the gutter, it could also be the year that the next Republican president begins his political career.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2016-10-15",
+    "categories": [],
+    "preview": "posts/2016-10-15-greitens-reports-for-duty/images/StLouis_Greitens_1.jpg",
+    "last_modified": "2020-04-26T17:14:07-04:00"
+  },
+  {
+    "path": "posts/2016-09-08-professional-amateurs/",
+    "title": "Professional Amateurs",
+    "description": "Despite many unforced errors Hillary Clinton has won the Democratic nomination and polls suggest she will beat Donald Trump. But her campaign continues to make unforced errors. There was plenty of evidence of an amateur nature to what should be a professional campaign at a recent rally for Clinton’s running mate, Tim Kaine, in Grand Rapids, Michigan.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2016-09-08",
+    "categories": [],
+    "preview": "posts/2016-09-08-professional-amateurs/images/ProfessionalAmateurs-WelcomeSign.jpg",
+    "last_modified": "2020-04-26T17:13:36-04:00"
+  },
+  {
+    "path": "posts/2016-07-17-trump-revisited/",
+    "title": "Trump, Revisited",
+    "description": "Donald Trump is an improved politician, but it's unlikely to be enough. He has harnessed fervent anti-Clinton sentiment amongst Republicans. But he does not have time to build the coalitions usually needed to win a US presidential election.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2016-07-17",
+    "categories": [],
+    "preview": "posts/2016-07-17-trump-revisited/images/2016_07_17_Children.jpg",
+    "last_modified": "2020-04-26T17:13:28-04:00"
+  },
+  {
+    "path": "posts/2016-02-03-broader-thinking-needed-on-the-australian-budget/",
+    "title": "Broader Thinking Needed on the Australian Budget",
+    "description": "The Treasury Secretary, and many others, bemoan the wasted years of the mining boom. Most agree that Australia should have more to show for what was the most significant boom since Federation. But the boom is over. And a fixation on budget surpluses means that we are missing an opportunity to make up for it. Australia’s credit rating is a strength that we should take advantage of. The Commonwealth should be borrowing to fund infrastructure investment.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2016-02-03",
+    "categories": [],
+    "preview": "posts/2016-02-03-broader-thinking-needed-on-the-australian-budget/images/DSC_0599.jpg",
+    "last_modified": "2020-04-26T17:13:21-04:00"
+  },
+  {
+    "path": "posts/2016-01-14-notes-and-photos-from-iowa/",
+    "title": "Notes and Photos From Iowa",
+    "description": "Bernie Sanders seems quite reasonable for a revolutionary. An energetic man of 74, he spoke for an hour in Perry, Iowa, to a room of 300 from only a few lines of handwritten notes, and then fielded half an hour of questions. He does not have the same aura that surrounded, then, Senator Obama in his own Iowa battle with, then, Senator Clinton in 2008 say those who saw both. Instead, Sanders has preternatural calm.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2016-01-14",
+    "categories": [],
+    "preview": "posts/2016-01-14-notes-and-photos-from-iowa/images/2016_01_11_Bernie.jpg",
+    "last_modified": "2020-04-26T17:13:12-04:00"
+  },
+  {
+    "path": "posts/2015-08-31-prepare-for-future-economic-crises-now/",
+    "title": "Prepare For Future Economic Crises Now",
+    "description": "Few policymakers were prepared for the financial crisis of 2007-08. Until it hit, their focus was on more obvious threats to the economy, instead of such an unexpected event. Could this be because planning for unexpected economic events is not the explicit responsibility of any particular policy-maker? If so, this has to change.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2015-08-31",
+    "categories": [],
+    "preview": "posts/2015-08-31-prepare-for-future-economic-crises-now/images/DSCF1945.jpg",
+    "last_modified": "2020-04-26T17:13:01-04:00"
+  },
+  {
+    "path": "posts/2014-12-24-in-appreciation-of-ronald-coase/",
+    "title": "In Appreciation of Ronald Coase",
+    "description": "Ronald Coase, one of the most influential economists of the twentieth century, passed away in 2013 aged 102. Reading his papers today, I wonder whether he'd have become an economist if he were making that decision now.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2014-12-24",
+    "categories": [],
+    "preview": "posts/2014-12-24-in-appreciation-of-ronald-coase/images/IMG_0145.jpg",
+    "last_modified": "2020-04-26T17:12:55-04:00"
+  },
+  {
+    "path": "posts/2014-12-24-i-ll-have-what-they-re-having/",
+    "title": "I'll Have What They're Having",
+    "description": "Some accuse the Rich White Males from San Francisco's Bay Area of only making products for other Rich White Males. But that neglects the fact that what they want is sometimes also what the rest of us want.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2014-12-17",
+    "categories": [],
+    "preview": "posts/2014-12-24-i-ll-have-what-they-re-having/images/DSCF3336.jpg",
+    "last_modified": "2020-04-26T17:12:23-04:00"
+  },
+  {
+    "path": "posts/2014-03-19-the-human-equation-an-interview-with-george-zachary/",
+    "title": "The Human Equation: An Interview With George Zachary",
+    "description": "In an age when you can buy data-driven refrigerators and Moneyball is nominated for Academy Awards you may be surprised to hear there are investors who describe themselves as gut-driven. Frankly I thought such people would be too embarrassed to be out in public. Then I heard George Zachary talk.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2014-03-19",
+    "categories": [],
+    "preview": "posts/2014-03-19-the-human-equation-an-interview-with-george-zachary/images/IMG_0277.jpg",
+    "last_modified": "2020-04-26T17:12:08-04:00"
+  },
+  {
+    "path": "posts/2012-11-28-final-shot-at-ending-industrial-disputes/",
+    "title": "Final Shot At Ending Industrial Disputes",
+    "description": "The industrial relations disputes that culminated in the shutdown of Qantas last year took more than nine months to make it through arbitration. Such lengthy delays have left many wondering if changes should be made to the processes that underpin this form of dispute resolution. The use of ‘final offer’ arbitration could be the small change that has a big effect, saving conflicted parties time, money and reputation.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      },
+      {
+        "name": "Ben O'Neill",
+        "url": {}
+      }
+    ],
+    "date": "2012-11-28",
+    "categories": [],
+    "preview": "posts/2012-11-28-final-shot-at-ending-industrial-disputes/images/DSC3132.jpg",
+    "last_modified": "2020-04-26T17:11:59-04:00"
+  },
+  {
+    "path": "posts/2011-05-17-tournaments-could-drive-r-d-effort/",
+    "title": "Tournaments Could Drive R&D Effort",
+    "description": "The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      },
+      {
+        "name": "Andrew Barnes",
+        "url": {}
+      }
+    ],
+    "date": "2011-05-17",
+    "categories": [],
+    "preview": "posts/2011-05-17-tournaments-could-drive-r-d-effort/images/DSCF4403.jpg",
+    "last_modified": "2020-04-26T17:11:50-04:00"
+  },
+  {
+    "path": "posts/2009-05-25-plastic-policies/",
+    "title": "Plastic Policies",
+    "description": "There is broad agreement that Australian plastic bag consumption should be reduced. To this end, recent South Australian legislation has banned certain types of plastic bags. But other states wishing to reduce their plastic bag consumption may find a tax rather than a ban the more appropriate policy instrument.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      },
+      {
+        "name": "Flavio Menezes",
+        "url": {}
+      }
+    ],
+    "date": "2009-05-25",
+    "categories": [],
+    "preview": {},
+    "last_modified": "2020-04-26T17:11:38-04:00"
+  },
+  {
+    "path": "posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/",
+    "title": "Home Buyers Will Be Hurt by Aid Plan",
+    "description": "The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.",
+    "author": [
+      {
+        "name": "Rohan Alexander",
+        "url": {}
+      }
+    ],
+    "date": "2008-05-08",
+    "categories": [],
+    "preview": "posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/images/DSCF0213.jpg",
+    "last_modified": "2020-04-26T15:49:08-04:00"
+  }
+]
