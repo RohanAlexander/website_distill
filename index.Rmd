@@ -17,7 +17,7 @@ My [academic research](https://rohanalexander.com/academic.html) answers questio
 
 I co-founded the [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html),  which is more fun than it sounds; please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend or present!
 
-Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling.
+<!-- Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. -->
 
 Finally, I probably spend too much money on books, and certainly too much time at libraries. You can see some of the books that I recommend [here](https://rohanalexander.com/bookshelf.html). If you have any book recommendations of your own, I've love to hear them.
 
