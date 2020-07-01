@@ -9,8 +9,6 @@ knitr::include_graphics("images/toronto_data_workshop.png")
 ```
 
 
-**16 June 2020: We have announced three $1,000 research stipends. Please visit this [page](https://rohanalexander.com/toronto_data_workshop-stipends.html) for more information.**
-
 
 # Overview
 
@@ -78,7 +76,7 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
 	[Rich](https://twitter.com/riannone) is a Software Engineer at R Studio. Rich will talk about [`pointblank`](https://github.com/rich-iannone/pointblank), which is an R package that allows workflows that allow for nice and easy data validation in reproducible documents.
 * *Thursday, 20 August 2020, 4-5pm*  
 	**Aije Egwaikhide** (IBM)  
-	Aije is a Lead Data Scientist at IBM Systems Enablement. Aije will talk about getting data ready for OCR training.
+	Aije Egwaikhide holds a undergraduate degree in Economics and Statistics from the University of Manitoba, and a post-graduate degree in Business Analytics from St. Lawrence College, Kingston. She works at IBM where she is a Lead Data Scientist on the System Enablement group. Aije will talk about preparing data for optical character recognition (OCR).
 	
 
 
