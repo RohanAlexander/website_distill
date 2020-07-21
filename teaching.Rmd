@@ -1,14 +1,13 @@
 ---
 title: "Teaching"
 description: |
-  My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers) and I enjoy teaching students from a wide range of backgrounds.
+  My teaching is informed not only by my time in academia, but also by my experience working at my own start-up and in government. My approach is best characterised as practical, research-based, and emphasising workflow. I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers) and I enjoy teaching students from a wide range of backgrounds. In general, I aim to help students learn how to tell stories with data. I have put together some notes to support my teaching, and these are available here: https://www.tellingstorieswithdata.com/.
 ---
 
-My teaching helps students learn how to tell stories with data. I have put together some notes to support my teaching, and these are available here: https://www.tellingstorieswithdata.com/.
-
 # University of Toronto
-* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020.
-* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf) 
+* *(Upcoming)* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021
+* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020
+* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf)
 
 
 # Australian National University
@@ -31,7 +30,6 @@ My teaching helps students learn how to tell stories with data. I have put toget
     - University of Toronto, Independent Summer Statistics Community, 22 May 2020.
 
 * Instructor, [Getting started with MRP](http://rohanalexander.com/posts/2019-12-04-getting_started_with_mrp/)
-    - *(Upcoming)* University of Toronto, Sociology Quant Week, 2 September 2020.
     - Australian National University, 3 December 2019.
     
 * Instructor, Introduction to Blogdown

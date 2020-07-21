@@ -1,0 +1,7 @@
+---
+title: "INF2178: Experimental Design"
+description: |
+  INF2178 is a masters-level course at the University of Toronto's Faculty of Information.
+---
+
+*Coming soon.*

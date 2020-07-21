@@ -18,7 +18,13 @@ navbar:
     - text: "Bookshelf"
       href: bookshelf.html
     - text: "Teaching"
-      href: teaching.html
+      menu: 
+        - text: "Overview"
+          href: teaching.html
+        - text: "Surveys, Sampling and Observational Data"
+          href: sta304.html
+        - text: "Experimental Design"
+          href: inf2178.html
     - text: "Toronto Data Workshop"
       href: toronto_data_workshop.html
     - text: "Other"

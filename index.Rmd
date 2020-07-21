@@ -6,7 +6,7 @@ site: distill::distill_website
 Hi, I’m Rohan Alexander.
 
 ```{r  out.width = "30%"}
-knitr::include_graphics("images/portrait.jpg") 
+knitr::include_graphics("images/portrait_mask.jpeg") 
 ```
 
 I am an Assistant Professor in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander) (jointly-appointed) at the University of Toronto, Canada. 

@@ -1,0 +1,52 @@
+---
+title: "Surveys, Sampling and Observational Data"
+description: |
+  STA304 is an upper-level undergraduate course at the University of Toronto's Department of Statistical Sciences.
+---
+
+*Coming soon.*
+
+
+<!-- [Course outline]() -->
+
+<!-- # Lectures -->
+
+<!-- - Week 1:   -->
+<!--   asdf   -->
+<!--   Videos, Notes. -->
+<!-- - Week 2: Videos, Notes. -->
+<!-- - Week 3: Videos, Notes. -->
+<!-- - Week 4: Videos, Notes. -->
+<!-- - Week 5: Videos, Notes. -->
+<!-- - Week 6: Videos, Notes. -->
+<!-- - Week 7: Videos, Notes. -->
+<!-- - Week 8: Videos, Notes. -->
+<!-- - Week 9: Videos, Notes. -->
+<!-- - Week 10: Videos, Notes. -->
+<!-- - Week 11: Videos, Notes. -->
+<!-- - Week 12: Videos, Notes. -->
+
+
+<!-- # Labs -->
+
+<!-- - Week 1: Videos, Notes. -->
+<!-- - Week 2: Videos, Notes. -->
+<!-- - Week 3: Videos, Notes. -->
+<!-- - Week 4: Videos, Notes. -->
+<!-- - Week 5: Videos, Notes. -->
+<!-- - Week 6: Videos, Notes. -->
+<!-- - Week 7: Videos, Notes. -->
+<!-- - Week 8: Videos, Notes. -->
+<!-- - Week 9: Videos, Notes. -->
+<!-- - Week 10: Videos, Notes. -->
+<!-- - Week 11: Videos, Notes. -->
+<!-- - Week 12: Videos, Notes. -->
+
+<!-- # Assessment -->
+
+<!-- - Problem Set 1. -->
+<!-- - Problem Set 2. -->
+<!-- - Problem Set 3.  -->
+<!-- - Problem Set 4. -->
+<!-- - Problem Set 5. -->
+<!-- - Problem Set 6. -->
