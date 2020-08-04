@@ -11,7 +11,16 @@ knitr::include_graphics("images/portrait_mask.jpeg")
 
 I am an Assistant Professor in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander) (jointly-appointed) at the University of Toronto, Canada. 
 
-My [academic research](https://rohanalexander.com/academic.html) answers questions in social sciences, such as: are our politicians actually representing us, do elections matter, and how can we make political polling better. To do this I build, clean, maintain, and share datasets in a reproducible way, and then use quantitative methods, such as text analysis, machine learning, and Bayesian hierarchical models, to analyse them.
+My [academic interests](https://rohanalexander.com/academic.html) are multidisciplinary but fall at the intersection of information and statistical science. I use quantitative methods to explore human-centered questions with an emphasis on data concerns. I am interested in not only statistical science, that is, drawing quantitative inferences from real-world data, but also in information science, through my emphasis on all aspects of obtaining, preparing, storing, and sharing data.
+
+My research typically involves first constructing new datasets in a reproducible way, drawing on methods including digitization, record matching, survey collection, and web-scraping. After constructing datasets I then typically use quantitative methods to analyse the large amounts of information contained in them, drawing on techniques from natural language processing, machine learning, and Bayesian methods, as appropriate. As my work is focused on individuals, issues of privacy and consent are of critical importance, and exist within my broader research interests in the intersection of data and ethics. Additionally, I develop open science best practises that help enhance reproducibility and replicability, as well as understanding.
+
+My work is arranged around three tranches:
+
+- Multilevel regression with post-stratification (MRP).
+- Natural language processing (NLP).
+- Workflow analysis.
+
 
 I co-founded the [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html),  which is more fun than it sounds; please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend or present!
 

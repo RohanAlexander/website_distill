@@ -3,7 +3,7 @@ title: "Tidying the 2019 Kenyan Census"
 description: |
   In this note I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.
 author:
-  - name: Rohan Alexander
+  - name: Rohan Alexandere
 date: 2020-04-14
 output:
   distill::distill_article:
