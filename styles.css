@@ -1,14 +1,14 @@
 
 
 .distill-site-nav {
-  color: #fca311;
+  color: #00f5d4;
   background-color: #14213d;
   font-size: 16px;
   font-weight: 300;
 }
 
 .distill-site-nav a:hover {
-  color: #EE4266;
+  color: #FEE440;
 }
 
 body {
@@ -16,11 +16,11 @@ body {
 }
 
 h1 {
-  color: #14213d;
+  color: #9B5DE5;
 }
 
 h2 {
-  color: #EE4266;
+  color: #FEE440;
 	border-bottom: none;
 }
 

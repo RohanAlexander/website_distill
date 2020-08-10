@@ -1,0 +1,16 @@
+---
+title: "Ethics and Data Science"
+description: |
+  INF2010 is post-graduate level reading course at the Faculty of Information, University of Toronto.
+---
+
+The purpose of this reading course to be held in Winter 2021 is to develop students who can:
+
+- engage in thoughtful, ethical, critique of data science, its antecedents, current state, and likely evolution; and 
+- work productively to implement existing data science methods, as well as contribute to the creation of novel methods or applications.
+
+Each week students will read relevant papers and books, engage with them through discussion with each other and the instructor, learn related technical skills, and bring this together through on-going assessment. All students are expected to be prepared for each week's discussion through completing the readings and technical requirements. A specific student will act as the lead for each week.
+
+The course outline is available [here](pdfs/2021-ethics_and_data_science.pdf). 
+
+

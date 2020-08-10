@@ -1,7 +1,7 @@
 ---
 title: "Toronto Data Workshop"
 description: |
-  A weekly hour-long discussion about data collection; data cleaning; and data storage, retrieval, dissemination, and protection in academia and industry. All welcome! 
+  A weekly hour-long discussion about data collection; data cleaning; and data storage, retrieval, dissemination, and protection in academia and industry. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 ---
 
 ```{r, out.width= "35%"}
@@ -14,6 +14,8 @@ knitr::include_graphics("images/toronto_data_workshop.png")
 
 The Toronto Data Workshop (TDW) brings together researchers from many academic disciplines and industry to collectively consider, collate, share, and disseminate best practices in the critical initial steps in a data science project: data collection; data cleaning; and data storage, retrieval, dissemination, and protection.
 
+All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+
 The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Alexander.
 
 Since Fall 2019, our multidisciplinary workshop has brought together academic and industry participants to share what we do in these crucial, yet little discussed, stages of working with data and share data best practices. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. Participants come from many fields, including financial tech, digital humanities, and healthcare information, among others. 
@@ -22,8 +24,7 @@ Anyone is welcome to attend - you don't need to be affiliated with the universit
 
 We thank Dean Wendy Duff and the Faculty of Information, University of Toronto, for support for this workshop.
 
-If you would like to receive invitations to the series, then you can subscribe by just sending an email to listserv@listserv.utoronto.ca with the following content:  
-  sub toronto-data-workshop-l YOUR_FIRST_NAME YOUR_LAST_NAME
+If you would like to receive invitations to the series, then you can subscribe [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 
 
 # Location and time
@@ -69,13 +70,15 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
 * *Thursday, 30 July 2020, 4-5pm*  
 	**Alex Luscombe** (University of Toronto, Criminology and Sociolegal Studies)  
 	**Alexander McClelland** (Carleton University, Criminology and Criminal Justice)  
-	[Alex Luscombe](https://alexluscombe.ca/) is a PhD student in the Centre for Criminology & Sociolegal Studies at the University of Toronto and a Junior Fellow at Massey College. [Alexander McClelland](https://www.alexandermcclelland.ca/) is an Assistant Professor at the Institute of Criminology and Criminal Justice, Carleton University.	They will talk about [Policing the Pandemic](https://www.policingthepandemic.ca/), which is a project that was launched on 4 April, 2020, to track and visualize the massive and extraordinary expansions of police power in response to the COVID-19 Pandemic and the unequal patterns of enforcement that may arise as  a result. 
+	[Alex Luscombe](https://alexluscombe.ca/) is a PhD student in the Centre for Criminology & Sociolegal Studies at the University of Toronto and a Junior Fellow at Massey College. [Alexander McClelland](https://www.alexandermcclelland.ca/) is an Assistant Professor at the Institute of Criminology and Criminal Justice, Carleton University.	They will talk about [Policing the Pandemic](https://www.policingthepandemic.ca/), which is a project that was launched on 4 April, 2020, to track and visualize the massive and extraordinary expansions of police power in response to the COVID-19 Pandemic and the unequal patterns of enforcement that may arise as  a result.  
+	Slides available [here](https://alexluscombe.ca/post/policing-the-pandemic/).
 * *Thursday, 6 August 2020, 4-5pm*  
 	**Sharla Gelfand** (Freelance R Developer)  
-	[Sharla](https://sharla.party/) is a freelance R developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. 
+	[Sharla](https://sharla.party/) is a freelance R developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. They will talk about creativity in R.
+	Slides available [here](https://github.com/sharlagelfand/artstats).
 * *Thursday, 13 August 2020, 4-5pm*  
 	**Richard Iannone** (R Studio)  
-	[Rich](https://twitter.com/riannone) is a Software Engineer at R Studio. Rich will talk about [`pointblank`](https://github.com/rich-iannone/pointblank), which is an R package that allows workflows that allow for nice and easy data validation in reproducible documents.
+	[Rich](https://randr.rocks/) is a Software Engineer at R Studio. Rich will talk about [`pointblank`](https://github.com/rich-iannone/pointblank), which is an R package that allows workflows involving nice and easy data validation in reproducible documents.
 * *Thursday, 20 August 2020, 4-5pm*  
 	**Aije Egwaikhide** (IBM)  
 	Aije Egwaikhide holds a undergraduate degree in Economics and Statistics from the University of Manitoba, and a post-graduate degree in Business Analytics from St. Lawrence College, Kingston. She works at IBM where she is a Lead Data Scientist on the System Enablement group. Aije will talk about preparing data for optical character recognition (OCR).
@@ -123,5 +126,4 @@ In the Summer Term we will meet Thursdays at 4-5pm (Toronto time) via Zoom. For 
     [Paraskevi Massara](https://ca.linkedin.com/in/paraskevi-massara-597326a0) (U of T, Medicine)  
 
 
-If you would like to receive invitations to the series, then you can subscribe by just sending an email to listserv@listserv.utoronto.ca with the following content:  
-  sub toronto-data-workshop-l YOUR_FIRST_NAME YOUR_LAST_NAME
+If you would like to receive invitations to the series, then you can subscribe [here](https://forms.gle/sXbEixoa1iJR4Q7A8).

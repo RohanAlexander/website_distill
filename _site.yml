@@ -25,6 +25,8 @@ navbar:
           href: sta304.html
         - text: "Experimental Design"
           href: inf2178.html
+        - text: "Ethics and Data Science"
+          href: inf2010.html
     - text: "Toronto Data Workshop"
       href: toronto_data_workshop.html
     - text: "Other"
