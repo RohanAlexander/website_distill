@@ -1262,17 +1262,29 @@
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <style type="text/css">
+  .nav-dropdown-content {
+    color: #00f5d4;
+    background-color: #14213d;
+  }
+  
+  .nav-dropdown-content a:hover {
+    background-color: #14213d;
+  }
+  
+  .nav-dropdown-content a{
+    color: #00f5d4;
+  }
   
   
   .distill-site-nav {
-    color: #00f5d4;
-    background-color: #14213d;
-    font-size: 16px;
-    font-weight: 300;
+    color: #283044;
+    background-color: #00f5d4;
+    font-weight: bold;
   }
   
   .distill-site-nav a:hover {
-    color: #FEE440;
+    font-weight: bold;
+    color: #FFFFFF;
   }
   
   body {
@@ -1280,14 +1292,13 @@
   }
   
   h1 {
-    color: #9B5DE5;
+    color: #283044;
   }
   
   h2 {
-    color: #FEE440;
+    color: #283044;
   	border-bottom: none;
   }
-  
   
   
   
@@ -1316,8 +1327,7 @@
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="academic.html">Academic</a>
-<a href="blog.html">Blog</a>
-<a href="bookshelf.html">Bookshelf</a>
+<a href="lab.html">Lab</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 Teaching
@@ -1326,13 +1336,24 @@ Teaching
 </button>
 <div class="nav-dropdown-content">
 <a href="teaching.html">Overview</a>
-<a href="sta304.html">Surveys, Sampling and Observational Data</a>
 <a href="inf2178.html">Experimental Design</a>
 <a href="inf2010.html">Ethics and Data Science</a>
+<a href="sta304.html">Surveys, Sampling and Observational Data</a>
 </div>
 </div>
 <a href="toronto_data_workshop.html">Toronto Data Workshop</a>
-<a href="other.html">Other</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Other
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="blog.html">Blog</a>
+<a href="bookshelf.html">Bookshelf</a>
+<a href="bookshelf.html">Professional</a>
+</div>
+</div>
 <a href="https://twitter.com/RohanAlexander">
 <i class="fab fa-twitter"></i>
 </a>
@@ -1358,6 +1379,13 @@ Teaching
 
 <div class="d-article">
 <p><a href="pdfs/cv-academic-Rohan_Alexander.pdf">Academic CV</a></p>
+<p>My academic interests are multidisciplinary but fall at the intersection of information and statistical science. I use quantitative methods to explore human-centered questions with an emphasis on data concerns. I am interested in not only statistical science, that is, drawing quantitative inferences from real-world data, but also in information science, through my emphasis on all aspects of obtaining, preparing, storing, and sharing data.</p>
+<p>My work is arranged around three tranches:</p>
+<ul>
+<li>Multilevel regression with post-stratification (MRP).</li>
+<li>Natural language processing (NLP).</li>
+<li>Statistical workflow.</li>
+</ul>
 <h1 id="published-papers">Published papers</h1>
 <ul>
 <li>Rohan Alexander and Zach Ward, 2018, ‘<a href="https://www.cambridge.org/core/journals/journal-of-economic-history/article/age-at-arrival-and-assimilation-during-the-age-of-mass-migration/85FDB674232C30BDD889711D343F22FE">Age at Arrival and Assimilation During the Age of Mass Migration</a>’, <em>The Journal of Economic History</em>, 78(3), 904-937.<br />

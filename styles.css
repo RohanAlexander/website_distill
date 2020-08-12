@@ -1,14 +1,26 @@
+.nav-dropdown-content {
+  color: #00f5d4;
+  background-color: #14213d;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #14213d;
+}
+
+.nav-dropdown-content a{
+  color: #00f5d4;
+}
 
 
 .distill-site-nav {
-  color: #00f5d4;
-  background-color: #14213d;
-  font-size: 16px;
-  font-weight: 300;
+  color: #283044;
+  background-color: #00f5d4;
+  font-weight: bold;
 }
 
 .distill-site-nav a:hover {
-  color: #FEE440;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
 body {
@@ -16,13 +28,12 @@ body {
 }
 
 h1 {
-  color: #9B5DE5;
+  color: #283044;
 }
 
 h2 {
-  color: #FEE440;
+  color: #283044;
 	border-bottom: none;
 }
-
 
 

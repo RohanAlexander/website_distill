@@ -1288,17 +1288,29 @@ document.addEventListener('DOMContentLoaded', function() {
   <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
 <style type="text/css">
+.nav-dropdown-content {
+  color: #00f5d4;
+  background-color: #14213d;
+}
+
+.nav-dropdown-content a:hover {
+  background-color: #14213d;
+}
+
+.nav-dropdown-content a{
+  color: #00f5d4;
+}
 
 
 .distill-site-nav {
-  color: #00f5d4;
-  background-color: #14213d;
-  font-size: 16px;
-  font-weight: 300;
+  color: #283044;
+  background-color: #00f5d4;
+  font-weight: bold;
 }
 
 .distill-site-nav a:hover {
-  color: #FEE440;
+  font-weight: bold;
+  color: #FFFFFF;
 }
 
 body {
@@ -1306,14 +1318,13 @@ body {
 }
 
 h1 {
-  color: #9B5DE5;
+  color: #283044;
 }
 
 h2 {
-  color: #FEE440;
+  color: #283044;
 	border-bottom: none;
 }
-
 
 
 
@@ -1341,8 +1352,7 @@ h2 {
 <div class="nav-right">
 <a href="../../index.html">Home</a>
 <a href="../../academic.html">Academic</a>
-<a href="../../blog.html">Blog</a>
-<a href="../../bookshelf.html">Bookshelf</a>
+<a href="../../lab.html">Lab</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 Teaching
@@ -1351,13 +1361,24 @@ Teaching
 </button>
 <div class="nav-dropdown-content">
 <a href="../../teaching.html">Overview</a>
-<a href="../../sta304.html">Surveys, Sampling and Observational Data</a>
 <a href="../../inf2178.html">Experimental Design</a>
 <a href="../../inf2010.html">Ethics and Data Science</a>
+<a href="../../sta304.html">Surveys, Sampling and Observational Data</a>
 </div>
 </div>
 <a href="../../toronto_data_workshop.html">Toronto Data Workshop</a>
-<a href="../../other.html">Other</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Other
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="../../blog.html">Blog</a>
+<a href="../../bookshelf.html">Bookshelf</a>
+<a href="../../bookshelf.html">Professional</a>
+</div>
+</div>
 <a href="https://twitter.com/RohanAlexander">
 <i class="fab fa-twitter"></i>
 </a>

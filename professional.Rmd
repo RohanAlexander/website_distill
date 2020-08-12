@@ -1,0 +1,47 @@
+---
+title: "Professional"
+---
+
+
+# Professional experience
+
+<!-- [Professional CV](pdfs/cv-professional-RohanAlexander.pdf) -->
+
+### Petit Poll
+
+May 2016 -- *Current*
+
+This is a joint project with [Monica Alexander](https://www.monicaalexander.com). Petit Poll combines non-representative polling data with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. I am responsible for survey design and analysis, as well as marketing and communication.
+
+We polled the 2016 Australian Federal election and got a (statistically) reasonable result. In terms of seats we were five off. Four of those were just a result of our small sample size: there were the three that turned unexpectedly in Tasmania; and the one in South Australia that went to the Nick Xenophon team. If we had more data from those areas then the model would have had a better chance, but when there’s not much data the prior has a big impact.
+
+
+
+### Grosvenor Public Sector Advisory
+
+Consultant,   April 2017 -- February 2019
+
+I consulted at Grosvenor on a casual basis to complete a specific project for the European Commission relating to public procurement. This involved: identifying data sources; preparing for and supporting data acquisition; conducting data quality confirmation; helping with survey design and validation; and some minor managerial responsibilities.
+
+
+### The Centre for International Economics
+
+Economist, January 2012 -- August 2013; August 2015 -- November 2015
+
+The CIE is a privately-owned economic consultancy. I contributed to reports for public- and private-sector clients as part of a small team. Topics included: valuing public sector outputs; housing sector taxation; the global meat market; wheat price elasticities; variations to modern awards; migration; and labor markets.
+
+
+### GoCampaign
+
+Co-founder and Director, July 2011 -- May 2015
+
+As a co-founder and director of GoCampaign (later GoCatalyze), a data analysis tool, I was responsible for the creation and development of a business along with Andrew Barnes, Chris Eigeland and Chris Hood. There were many aspects to this including creating marketing material and websites; making pitch decks; customer on-boarding and service; presenting; market testing; and some minor managerial responsibilities. GoCatalyze completed the ANZ Innovyz START accelerator program in 2013 and won the iAward Data Category in 2014. GoCatalyze is now part of GO1. 
+
+
+### Reserve Bank of Australia
+
+Cadet/Analyst/Senior Analyst, February 2009 -- December 2011
+
+I researched topics related to banknotes, for example an econometric analysis of banknote demand during the 2007-08 financial crisis. I was also responsible for creating and analysing counterfeit banknote datasets, and gave banknote-related presentations to the public.
+
+

@@ -2,7 +2,16 @@
 title: "Academic"
 ---
 
-[Academic CV](pdfs/cv-academic-Rohan_Alexander.pdf)  
+
+[Academic CV](pdfs/cv-academic-Rohan_Alexander.pdf)
+
+My academic interests are multidisciplinary but fall at the intersection of information and statistical science. I use quantitative methods to explore human-centered questions with an emphasis on data concerns. I am interested in not only statistical science, that is, drawing quantitative inferences from real-world data, but also in information science, through my emphasis on all aspects of obtaining, preparing, storing, and sharing data.
+
+My work is arranged around three tranches:
+
+- Multilevel regression with post-stratification (MRP).
+- Natural language processing (NLP).
+- Statistical workflow.
 
 # Published papers
 * Rohan Alexander and Zach Ward, 2018, '[Age at Arrival and Assimilation During the Age of Mass Migration](https://www.cambridge.org/core/journals/journal-of-economic-history/article/age-at-arrival-and-assimilation-during-the-age-of-mass-migration/85FDB674232C30BDD889711D343F22FE)', *The Journal of Economic History*, 78(3), 904-937.  
