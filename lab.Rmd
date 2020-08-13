@@ -14,10 +14,19 @@ The Toronto Data Lab exists to conduct research at the intersection of informati
 
 ## Graduate students
 
-- A Mahfouz
-- Diego Mamanche Castellanos
-- Hidaya Ismail
-- Ke-Li Chiu
-- Paul Hodgetts
+I am lucky to work with many talented graduate students and would be happy to strongly recommend any of them.
+
+- **A Mahfouz**, July 2020 - *current*
+    - `dlarXiv`: This R package makes it easier to responsibly download papers from arXiv.
+    - 'Discussions of bias in AI/ML research': In this paper we gather a sample of recent AI/ML research and use natural language processing to understand the extent to which bias, in an ethical rather than statistical sense, is considered.
+    - 'Communicating geographically-based Bayesian models': In this paper we introduce a method to communicate the geographic results of Bayesian models. 
+- **Diego Mamanche Castellanos**, August 2020 - *current*
+    - 'Understanding OCR in the context of a broader statistical workflow': In this paper we examine various optical character recognition (OCR) options, and how their outputs affect subsequent statistical analysis.
+- **Hidaya Ismail**, July 2020 - *current*
+    - 'Bias in TikTok': We gather and examine data from TikTok to understand the role of bias.
+- **Ke-Li Chiu**, July 2020 - *current*
+    - 'Consistency scores in text data': In this paper we introduce a process to clean the text extracted from PDFs using various methods from natural language processing.
+- **Paul Hodgetts**, July 2020 - *current*
+    - `ces`: This R package makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019.
 
 
