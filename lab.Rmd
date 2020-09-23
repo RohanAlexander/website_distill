@@ -28,5 +28,10 @@ I am lucky to work with many talented graduate students and would be happy to st
     - 'Consistency scores in text data': In this paper we introduce a process to clean the text extracted from PDFs using various methods from natural language processing.
 - **Paul Hodgetts**, July 2020 - *current*
     - `ces`: This R package makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019.
+    
+## Undergraduate students
+
+- **Yian Wang**, September 2020 - *current*
+    - Currently using experience in R, Python, and Julia to aid the above graduate students in their projects.
 
 
